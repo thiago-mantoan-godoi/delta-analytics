@@ -1,0 +1,562 @@
+[
+    {
+        "Setup":"Delta240",
+        "Tempo(H)":"0,10",
+        "Tempo(m) (setup target NVT)":"6,0"
+    },
+    {
+        "Setup":"Delta260",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"Press4T",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"Press2T",
+        "Tempo(H)":"0,05",
+        "Tempo(m) (setup target NVT)":"3,0"
+    },
+    {
+        "Setup":"P120",
+        "Tempo(H)":"0,17",
+        "Tempo(m) (setup target NVT)":"10,0"
+    },
+    {
+        "Setup":"P120i",
+        "Tempo(H)":"0,17",
+        "Tempo(m) (setup target NVT)":"10,0"
+    },
+    {
+        "Setup":"P250i",
+        "Tempo(H)":"0,17",
+        "Tempo(m) (setup target NVT)":"10,0"
+    },
+    {
+        "Setup":"P250",
+        "Tempo(H)":"0,17",
+        "Tempo(m) (setup target NVT)":"10,0"
+    },
+    {
+        "Setup":"SchunkMII2",
+        "Tempo(H)":"0,12",
+        "Tempo(m) (setup target NVT)":"7,0"
+    },
+    {
+        "Setup":"SchunkMII3",
+        "Tempo(H)":"0,12",
+        "Tempo(m) (setup target NVT)":"7,0"
+    },
+    {
+        "Setup":"SchunkMII4",
+        "Tempo(H)":"0,12",
+        "Tempo(m) (setup target NVT)":"7,0"
+    },
+    {
+        "Setup":"SchunkMII5",
+        "Tempo(H)":"0,12",
+        "Tempo(m) (setup target NVT)":"7,0"
+    },
+    {
+        "Setup":"SchunkMII6",
+        "Tempo(H)":"0,12",
+        "Tempo(m) (setup target NVT)":"7,0"
+    },
+    {
+        "Setup":"SchunkMII7",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SchunkMII8",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SchunkMII9",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SchunkMII10",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SchunkMII11",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SchunkMII12",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SchunkMII13",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"SchunkMII14",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"SchunkMII15",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"SchunkMII16",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"SchunkMII17",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"SchunkMII18",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"SchunkMII19",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"SchunkMII20",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"SpliceClip1",
+        "Tempo(H)":"0,07",
+        "Tempo(m) (setup target NVT)":"4,0"
+    },
+    {
+        "Setup":"SpliceClip2",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"SpliceClip3",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"SpliceClip4",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"SpliceClip5",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"SpliceClip6",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"SpliceClip7",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"SpliceClip8",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"SpliceClip9",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"SpliceClip10",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"SpliceClip11",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SpliceClip12",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SpliceClip13",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SpliceClip14",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SpliceClip15",
+        "Tempo(H)":"0,17",
+        "Tempo(m) (setup target NVT)":"10,0"
+    },
+    {
+        "Setup":"Twister2H",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"Twister3H",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"4,5"
+    },
+    {
+        "Setup":"Twister4H",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"Twister5H",
+        "Tempo(H)":"0,17",
+        "Tempo(m) (setup target NVT)":"10,0"
+    },
+    {
+        "Setup":"BT188Komax",
+        "Tempo(H)":"0,07",
+        "Tempo(m) (setup target NVT)":"4,0"
+    },
+    {
+        "Setup":"BT288Komax",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"4,5"
+    },
+    {
+        "Setup":"Prodmec",
+        "Tempo(H)":"0,07",
+        "Tempo(m) (setup target NVT)":"4,0"
+    },
+    {
+        "Setup":"TTW",
+        "Tempo(H)":"0,18",
+        "Tempo(m) (setup target NVT)":"10,8"
+    },
+    {
+        "Setup":"TSW",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"SSW",
+        "Tempo(H)":"0,30",
+        "Tempo(m) (setup target NVT)":"18,0"
+    },
+    {
+        "Setup":"TBN",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"TBC",
+        "Tempo(H)":"0,20",
+        "Tempo(m) (setup target NVT)":"12,0"
+    },
+    {
+        "Setup":"GS40Plus2",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"GS40Plus3",
+        "Tempo(H)":"0,10",
+        "Tempo(m) (setup target NVT)":"6,0"
+    },
+    {
+        "Setup":"GS40Plus4",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"GS40Plus5",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"GS40Plus6",
+        "Tempo(H)":"0,18",
+        "Tempo(m) (setup target NVT)":"11,0"
+    },
+    {
+        "Setup":"GS40Plus7",
+        "Tempo(H)":"0,20",
+        "Tempo(m) (setup target NVT)":"12,0"
+    },
+    {
+        "Setup":"GS40Plus8",
+        "Tempo(H)":"0,22",
+        "Tempo(m) (setup target NVT)":"13,0"
+    },
+    {
+        "Setup":"GS40Plus9",
+        "Tempo(H)":"0,23",
+        "Tempo(m) (setup target NVT)":"14,0"
+    },
+    {
+        "Setup":"GS50Plus2",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"GS50Plus3",
+        "Tempo(H)":"0,10",
+        "Tempo(m) (setup target NVT)":"6,0"
+    },
+    {
+        "Setup":"GS50Plus4",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"GS50Plus5",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"GS50Plus6",
+        "Tempo(H)":"0,18",
+        "Tempo(m) (setup target NVT)":"11,0"
+    },
+    {
+        "Setup":"GS50Plus7",
+        "Tempo(H)":"0,20",
+        "Tempo(m) (setup target NVT)":"12,0"
+    },
+    {
+        "Setup":"GS50Plus8",
+        "Tempo(H)":"0,22",
+        "Tempo(m) (setup target NVT)":"13,0"
+    },
+    {
+        "Setup":"GS50Plus9",
+        "Tempo(H)":"0,23",
+        "Tempo(m) (setup target NVT)":"14,0"
+    },
+    {
+        "Setup":"LS2001",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"LS2002",
+        "Tempo(H)":"0,10",
+        "Tempo(m) (setup target NVT)":"6,0"
+    },
+    {
+        "Setup":"LS2003",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"LS2004",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"LS2005",
+        "Tempo(H)":"0,18",
+        "Tempo(m) (setup target NVT)":"11,0"
+    },
+    {
+        "Setup":"LS2006",
+        "Tempo(H)":"0,20",
+        "Tempo(m) (setup target NVT)":"12,0"
+    },
+    {
+        "Setup":"LS2007",
+        "Tempo(H)":"0,22",
+        "Tempo(m) (setup target NVT)":"13,0"
+    },
+    {
+        "Setup":"LS2008",
+        "Tempo(H)":"0,23",
+        "Tempo(m) (setup target NVT)":"14,0"
+    },
+    {
+        "Setup":"SpliceGrapa2",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"SpliceGrapa3",
+        "Tempo(H)":"0,10",
+        "Tempo(m) (setup target NVT)":"6,0"
+    },
+    {
+        "Setup":"SpliceGrapa4",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    },
+    {
+        "Setup":"SpliceGrapa5",
+        "Tempo(H)":"0,15",
+        "Tempo(m) (setup target NVT)":"9,0"
+    },
+    {
+        "Setup":"SpliceGrapa6",
+        "Tempo(H)":"0,18",
+        "Tempo(m) (setup target NVT)":"11,0"
+    },
+    {
+        "Setup":"SpliceGrapa7",
+        "Tempo(H)":"0,20",
+        "Tempo(m) (setup target NVT)":"12,0"
+    },
+    {
+        "Setup":"SpliceGrapa8",
+        "Tempo(H)":"0,22",
+        "Tempo(m) (setup target NVT)":"13,0"
+    },
+    {
+        "Setup":"SpliceGrapa9",
+        "Tempo(H)":"0,23",
+        "Tempo(m) (setup target NVT)":"14,0"
+    },
+    {
+        "Setup":"SpliceGrapa10",
+        "Tempo(H)":"0,23",
+        "Tempo(m) (setup target NVT)":"14,0"
+    },
+    {
+        "Setup":"Hipot",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"TapeDispenserAut",
+        "Tempo(H)":"0,03",
+        "Tempo(m) (setup target NVT)":"2,0"
+    },
+    {
+        "Setup":"EVO500",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"Conveyor",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"STCS-CRT",
+        "Tempo(H)":"0,07",
+        "Tempo(m) (setup target NVT)":"4,0"
+    },
+    {
+        "Setup":"VMIR+",
+        "Tempo(H)":"0,07",
+        "Tempo(m) (setup target NVT)":"4,0"
+    },
+    {
+        "Setup":"MYX",
+        "Tempo(H)":"0,07",
+        "Tempo(m) (setup target NVT)":"4,0"
+    },
+    {
+        "Setup":"ManualStrip",
+        "Tempo(H)":"0,05",
+        "Tempo(m) (setup target NVT)":"3,0"
+    },
+    {
+        "Setup":"MulticrimpWeld",
+        "Tempo(H)":"0,10",
+        "Tempo(m) (setup target NVT)":"6,0"
+    },
+    {
+        "Setup":"HydraulicPress",
+        "Tempo(H)":"0,10",
+        "Tempo(m) (setup target NVT)":"6,0"
+    },
+    {
+        "Setup":"TTD",
+        "Tempo(H)":"0,18",
+        "Tempo(m) (setup target NVT)":"10,8"
+    },
+    {
+        "Setup":"TSD",
+        "Tempo(H)":"0,25",
+        "Tempo(m) (setup target NVT)":"15,0"
+    },
+    {
+        "Setup":"Ondal Tape",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"Jenzano1",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"Jenzano2",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"Jenzano3",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"Jenzano4",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"Jenzano5",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"Jenzano6",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"Jenzano7",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"Jenzano8",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"Jenzano9",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"Jenzano10",
+        "Tempo(H)":"0,02",
+        "Tempo(m) (setup target NVT)":"1,0"
+    },
+    {
+        "Setup":"DeepSolder",
+        "Tempo(H)":"0,08",
+        "Tempo(m) (setup target NVT)":"5,0"
+    },
+    {
+        "Setup":"HBQ-905",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"8,0"
+    }
+]

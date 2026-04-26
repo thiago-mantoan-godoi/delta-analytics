@@ -1,0 +1,4202 @@
+[
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD1",
+        "Comprim.":500.0,
+        "Atributte":"526",
+        "StdTime":"526",
+        "StdTime AS":"526"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD2",
+        "Comprim.":1000.0,
+        "Atributte":"519",
+        "StdTime":"519",
+        "StdTime AS":"519"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD3",
+        "Comprim.":1500.0,
+        "Atributte":"430",
+        "StdTime":"430",
+        "StdTime AS":"430"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD4",
+        "Comprim.":2000.0,
+        "Atributte":"416",
+        "StdTime":"416",
+        "StdTime AS":"416"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD5",
+        "Comprim.":2500.0,
+        "Atributte":"390",
+        "StdTime":"390",
+        "StdTime AS":"390"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD6",
+        "Comprim.":3000.0,
+        "Atributte":"378",
+        "StdTime":"378",
+        "StdTime AS":"378"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD7",
+        "Comprim.":3500.0,
+        "Atributte":"353",
+        "StdTime":"353",
+        "StdTime AS":"353"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD8",
+        "Comprim.":4000.0,
+        "Atributte":"336",
+        "StdTime":"336",
+        "StdTime AS":"336"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD9",
+        "Comprim.":4500.0,
+        "Atributte":"324",
+        "StdTime":"324",
+        "StdTime AS":"324"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD10",
+        "Comprim.":5000.0,
+        "Atributte":"311",
+        "StdTime":"311",
+        "StdTime AS":"311"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD11",
+        "Comprim.":5500.0,
+        "Atributte":"300",
+        "StdTime":"300",
+        "StdTime AS":"300"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD12",
+        "Comprim.":6000.0,
+        "Atributte":"290",
+        "StdTime":"290",
+        "StdTime AS":"290"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD13",
+        "Comprim.":6500.0,
+        "Atributte":"260",
+        "StdTime":"260",
+        "StdTime AS":"260"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD14",
+        "Comprim.":7000.0,
+        "Atributte":"200",
+        "StdTime":"200",
+        "StdTime AS":"200"
+    },
+    {
+        "Descrição":"Corte Bateria Normal",
+        "ID":"MSHD15",
+        "Comprim.":7500.0,
+        "Atributte":"180",
+        "StdTime":"180",
+        "StdTime AS":"180"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST1ESP",
+        "Comprim.":500.0,
+        "Atributte":"Middle strip",
+        "StdTime":"261",
+        "StdTime AS":"261"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST2ESP",
+        "Comprim.":1000.0,
+        "Atributte":"Middle strip",
+        "StdTime":"260",
+        "StdTime AS":"260"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST3ESP",
+        "Comprim.":1500.0,
+        "Atributte":"Middle strip",
+        "StdTime":"244",
+        "StdTime AS":"244"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST4ESP",
+        "Comprim.":2000.0,
+        "Atributte":"Middle strip",
+        "StdTime":"236",
+        "StdTime AS":"236"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST5ESP",
+        "Comprim.":2500.0,
+        "Atributte":"Middle strip",
+        "StdTime":"231",
+        "StdTime AS":"231"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST6ESP",
+        "Comprim.":3000.0,
+        "Atributte":"Middle strip",
+        "StdTime":"228",
+        "StdTime AS":"228"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST7ESP",
+        "Comprim.":3500.0,
+        "Atributte":"Middle strip",
+        "StdTime":"223",
+        "StdTime AS":"223"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST8ESP",
+        "Comprim.":4000.0,
+        "Atributte":"Middle strip",
+        "StdTime":"214",
+        "StdTime AS":"214"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST9ESP",
+        "Comprim.":4500.0,
+        "Atributte":"Middle strip",
+        "StdTime":"213",
+        "StdTime AS":"213"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST11ESP",
+        "Comprim.":5000.0,
+        "Atributte":"Middle strip",
+        "StdTime":"207",
+        "StdTime AS":"207"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST12ESP",
+        "Comprim.":5500.0,
+        "Atributte":"Middle strip",
+        "StdTime":"200",
+        "StdTime AS":"200"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST13ESP",
+        "Comprim.":6000.0,
+        "Atributte":"Middle strip",
+        "StdTime":"180",
+        "StdTime AS":"180"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST14ESP",
+        "Comprim.":6500.0,
+        "Atributte":"Middle strip",
+        "StdTime":"160",
+        "StdTime AS":"160"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST15ESP",
+        "Comprim.":7000.0,
+        "Atributte":"Middle strip",
+        "StdTime":"150",
+        "StdTime AS":"150"
+    },
+    {
+        "Descrição":"Corte Bateria CenterStrip",
+        "ID":"MST16ESP",
+        "Comprim.":7500.0,
+        "Atributte":"Middle strip",
+        "StdTime":"100",
+        "StdTime AS":"100"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD1",
+        "Comprim.":500.0,
+        "Atributte":"526",
+        "StdTime":"526",
+        "StdTime AS":"526"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD2",
+        "Comprim.":1000.0,
+        "Atributte":"519",
+        "StdTime":"519",
+        "StdTime AS":"519"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD3",
+        "Comprim.":1500.0,
+        "Atributte":"430",
+        "StdTime":"430",
+        "StdTime AS":"430"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD4",
+        "Comprim.":2000.0,
+        "Atributte":"416",
+        "StdTime":"416",
+        "StdTime AS":"416"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD5",
+        "Comprim.":2500.0,
+        "Atributte":"390",
+        "StdTime":"390",
+        "StdTime AS":"390"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD6",
+        "Comprim.":3000.0,
+        "Atributte":"378",
+        "StdTime":"378",
+        "StdTime AS":"378"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD7",
+        "Comprim.":3500.0,
+        "Atributte":"353",
+        "StdTime":"353",
+        "StdTime AS":"353"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD8",
+        "Comprim.":4000.0,
+        "Atributte":"336",
+        "StdTime":"336",
+        "StdTime AS":"336"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD9",
+        "Comprim.":4500.0,
+        "Atributte":"324",
+        "StdTime":"324",
+        "StdTime AS":"324"
+    },
+    {
+        "Descrição":"Corte Bateria Até 20",
+        "ID":"PSTHD10",
+        "Comprim.":5000.0,
+        "Atributte":"311",
+        "StdTime":"311",
+        "StdTime AS":"311"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS1MS",
+        "Comprim.":500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"420,8",
+        "StdTime AS":"420,8"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS2MS",
+        "Comprim.":1000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"415,2",
+        "StdTime AS":"415,2"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS3MS",
+        "Comprim.":1500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"344",
+        "StdTime AS":"344"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS4MS",
+        "Comprim.":2000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"332,8",
+        "StdTime AS":"332,8"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS5MS",
+        "Comprim.":2500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"312",
+        "StdTime AS":"312"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS6MS",
+        "Comprim.":3000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"302,4",
+        "StdTime AS":"302,4"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS7MS",
+        "Comprim.":3500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"282,4",
+        "StdTime AS":"282,4"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS8MS",
+        "Comprim.":4000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"268,8",
+        "StdTime AS":"268,8"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS9MS",
+        "Comprim.":4500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"259,2",
+        "StdTime AS":"259,2"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS10MS",
+        "Comprim.":5000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"248,8",
+        "StdTime AS":"248,8"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS11MS",
+        "Comprim.":5500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"240",
+        "StdTime AS":"240"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS12MS",
+        "Comprim.":6000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"230",
+        "StdTime AS":"230"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS13MS",
+        "Comprim.":6500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"225",
+        "StdTime AS":"225"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS14MS",
+        "Comprim.":7000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"220",
+        "StdTime AS":"220"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS15MS",
+        "Comprim.":7500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"215",
+        "StdTime AS":"215"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS16MS",
+        "Comprim.":8000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"205",
+        "StdTime AS":"205"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS17MS",
+        "Comprim.":8500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"200",
+        "StdTime AS":"200"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS18MS",
+        "Comprim.":9000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"180",
+        "StdTime AS":"180"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS19MS",
+        "Comprim.":9500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"175",
+        "StdTime AS":"175"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS20MS",
+        "Comprim.":10000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"164",
+        "StdTime AS":"164"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS21MS",
+        "Comprim.":10500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"160",
+        "StdTime AS":"160"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS22MS",
+        "Comprim.":11000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"155",
+        "StdTime AS":"155"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS23MS",
+        "Comprim.":11500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"150",
+        "StdTime AS":"150"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS24MS",
+        "Comprim.":12000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"145",
+        "StdTime AS":"145"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS25MS",
+        "Comprim.":12500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"140",
+        "StdTime AS":"140"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS26MS",
+        "Comprim.":13000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"138",
+        "StdTime AS":"138"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS27MS",
+        "Comprim.":13500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"135",
+        "StdTime AS":"135"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS28MS",
+        "Comprim.":14000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"132",
+        "StdTime AS":"132"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS29MS",
+        "Comprim.":14500.0,
+        "Atributte":"MultStrip",
+        "StdTime":"130",
+        "StdTime AS":"130"
+    },
+    {
+        "Descrição":"Corte Bateria com MultiWires",
+        "ID":"MS30MS",
+        "Comprim.":15000.0,
+        "Atributte":"MultStrip",
+        "StdTime":"125",
+        "StdTime AS":"125"
+    },
+    {
+        "Descrição":"Crimpagem Manual",
+        "ID":"Delta240",
+        "Comprim.":null,
+        "Atributte":"ManualCrimp",
+        "StdTime":"300",
+        "StdTime AS":"300"
+    },
+    {
+        "Descrição":"Crimpagem Manual",
+        "ID":"Delta260",
+        "Comprim.":null,
+        "Atributte":"ManualCrimp",
+        "StdTime":"200",
+        "StdTime AS":"200"
+    },
+    {
+        "Descrição":"Crimpagem Manual",
+        "ID":"Press2T",
+        "Comprim.":null,
+        "Atributte":"ManualCrimp",
+        "StdTime":"600",
+        "StdTime AS":"600"
+    },
+    {
+        "Descrição":"Crimpagem Manual",
+        "ID":"Press4T",
+        "Comprim.":null,
+        "Atributte":"ManualCrimp",
+        "StdTime":"600",
+        "StdTime AS":"600"
+    },
+    {
+        "Descrição":"Crimpagem Manual",
+        "ID":"Multic",
+        "Comprim.":null,
+        "Atributte":"ManualCrimp",
+        "StdTime":"250",
+        "StdTime AS":"250"
+    },
+    {
+        "Descrição":"Crimpagem Manual",
+        "ID":"P250",
+        "Comprim.":null,
+        "Atributte":"ManualCrimp",
+        "StdTime":"160",
+        "StdTime AS":"160"
+    },
+    {
+        "Descrição":"Crimpagem Manual",
+        "ID":"P250i",
+        "Comprim.":null,
+        "Atributte":"ManualCrimp",
+        "StdTime":"96",
+        "StdTime AS":"96"
+    },
+    {
+        "Descrição":"Crimpagem Manual",
+        "ID":"P120",
+        "Comprim.":null,
+        "Atributte":"ManualCrimp",
+        "StdTime":"160",
+        "StdTime AS":"160"
+    },
+    {
+        "Descrição":"Crimpagem Manual",
+        "ID":"P120i",
+        "Comprim.":null,
+        "Atributte":"ManualCrimp",
+        "StdTime":"96",
+        "StdTime AS":"96"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII2",
+        "Comprim.":2.0,
+        "Atributte":"Normal",
+        "StdTime":"290",
+        "StdTime AS":"155,44"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII3",
+        "Comprim.":3.0,
+        "Atributte":"Normal",
+        "StdTime":"280",
+        "StdTime AS":"150,08"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII4",
+        "Comprim.":4.0,
+        "Atributte":"Normal",
+        "StdTime":"210",
+        "StdTime AS":"112,56"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII5",
+        "Comprim.":5.0,
+        "Atributte":"Normal",
+        "StdTime":"197",
+        "StdTime AS":"105,592"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII6",
+        "Comprim.":6.0,
+        "Atributte":"Normal",
+        "StdTime":"170",
+        "StdTime AS":"91,12"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII7",
+        "Comprim.":7.0,
+        "Atributte":"Normal",
+        "StdTime":"149",
+        "StdTime AS":"79,864"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII8",
+        "Comprim.":8.0,
+        "Atributte":"Normal",
+        "StdTime":"132",
+        "StdTime AS":"70,752"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII9",
+        "Comprim.":9.0,
+        "Atributte":"Normal",
+        "StdTime":"119",
+        "StdTime AS":"63,784"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII10",
+        "Comprim.":10.0,
+        "Atributte":"Normal",
+        "StdTime":"109",
+        "StdTime AS":"58,424"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII11",
+        "Comprim.":11.0,
+        "Atributte":"Normal",
+        "StdTime":"100",
+        "StdTime AS":"53,6"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII12",
+        "Comprim.":12.0,
+        "Atributte":"Normal",
+        "StdTime":"92",
+        "StdTime AS":"49,312"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII13",
+        "Comprim.":13.0,
+        "Atributte":"Normal",
+        "StdTime":"86",
+        "StdTime AS":"46,096"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII14",
+        "Comprim.":14.0,
+        "Atributte":"Normal",
+        "StdTime":"80",
+        "StdTime AS":"42,88"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII15",
+        "Comprim.":15.0,
+        "Atributte":"Normal",
+        "StdTime":"75",
+        "StdTime AS":"40,2"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII16",
+        "Comprim.":16.0,
+        "Atributte":"Normal",
+        "StdTime":"71",
+        "StdTime AS":"38,056"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII17",
+        "Comprim.":17.0,
+        "Atributte":"Normal",
+        "StdTime":"67",
+        "StdTime AS":"35,912"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII18",
+        "Comprim.":18.0,
+        "Atributte":"Normal",
+        "StdTime":"64",
+        "StdTime AS":"34,304"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII19",
+        "Comprim.":19.0,
+        "Atributte":"Normal",
+        "StdTime":"61",
+        "StdTime AS":"32,696"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Normal",
+        "ID":"SchunkMII20",
+        "Comprim.":20.0,
+        "Atributte":"Normal",
+        "StdTime":"58",
+        "StdTime AS":"31,088"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano1",
+        "Comprim.":1.0,
+        "Atributte":"Normal",
+        "StdTime":"290",
+        "StdTime AS":"290"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano2",
+        "Comprim.":2.0,
+        "Atributte":"Normal",
+        "StdTime":"280",
+        "StdTime AS":"280"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano3",
+        "Comprim.":3.0,
+        "Atributte":"Normal",
+        "StdTime":"210",
+        "StdTime AS":"210"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano4",
+        "Comprim.":4.0,
+        "Atributte":"Normal",
+        "StdTime":"197",
+        "StdTime AS":"197"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano5",
+        "Comprim.":5.0,
+        "Atributte":"Normal",
+        "StdTime":"170",
+        "StdTime AS":"170"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano6",
+        "Comprim.":6.0,
+        "Atributte":"Normal",
+        "StdTime":"149",
+        "StdTime AS":"149"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano7",
+        "Comprim.":7.0,
+        "Atributte":"Normal",
+        "StdTime":"132",
+        "StdTime AS":"132"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano8",
+        "Comprim.":8.0,
+        "Atributte":"Normal",
+        "StdTime":"119",
+        "StdTime AS":"119"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano9",
+        "Comprim.":9.0,
+        "Atributte":"Normal",
+        "StdTime":"109",
+        "StdTime AS":"109"
+    },
+    {
+        "Descrição":"Jenzano",
+        "ID":"Jenzano10",
+        "Comprim.":10.0,
+        "Atributte":"Normal",
+        "StdTime":"100",
+        "StdTime AS":"100"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip1",
+        "Comprim.":1.0,
+        "Atributte":"Normal",
+        "StdTime":"290",
+        "StdTime AS":"290"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip2",
+        "Comprim.":2.0,
+        "Atributte":"Normal",
+        "StdTime":"280",
+        "StdTime AS":"280"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip3",
+        "Comprim.":3.0,
+        "Atributte":"Normal",
+        "StdTime":"210",
+        "StdTime AS":"210"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip4",
+        "Comprim.":4.0,
+        "Atributte":"Normal",
+        "StdTime":"197",
+        "StdTime AS":"197"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip5",
+        "Comprim.":5.0,
+        "Atributte":"Normal",
+        "StdTime":"170",
+        "StdTime AS":"170"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip6",
+        "Comprim.":6.0,
+        "Atributte":"Normal",
+        "StdTime":"149",
+        "StdTime AS":"149"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip7",
+        "Comprim.":7.0,
+        "Atributte":"Normal",
+        "StdTime":"132",
+        "StdTime AS":"132"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip8",
+        "Comprim.":8.0,
+        "Atributte":"Normal",
+        "StdTime":"119",
+        "StdTime AS":"119"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip9",
+        "Comprim.":9.0,
+        "Atributte":"Normal",
+        "StdTime":"109",
+        "StdTime AS":"109"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip10",
+        "Comprim.":10.0,
+        "Atributte":"Normal",
+        "StdTime":"100",
+        "StdTime AS":"100"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip11",
+        "Comprim.":11.0,
+        "Atributte":"Normal",
+        "StdTime":"101",
+        "StdTime AS":"101"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip12",
+        "Comprim.":12.0,
+        "Atributte":"Normal",
+        "StdTime":"102",
+        "StdTime AS":"102"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip13",
+        "Comprim.":13.0,
+        "Atributte":"Normal",
+        "StdTime":"103",
+        "StdTime AS":"103"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip14",
+        "Comprim.":14.0,
+        "Atributte":"Normal",
+        "StdTime":"104",
+        "StdTime AS":"104"
+    },
+    {
+        "Descrição":"SpliceClip",
+        "ID":"SpliceClip15",
+        "Comprim.":15.0,
+        "Atributte":"Normal",
+        "StdTime":"105",
+        "StdTime AS":"105"
+    },
+    {
+        "Descrição":"SpliceGrapa",
+        "ID":"SpliceGrapa2",
+        "Comprim.":2.0,
+        "Atributte":"Normal",
+        "StdTime":"136,5",
+        "StdTime AS":"136,5"
+    },
+    {
+        "Descrição":"SpliceGrapa",
+        "ID":"SpliceGrapa3",
+        "Comprim.":3.0,
+        "Atributte":"Normal",
+        "StdTime":"123,5",
+        "StdTime AS":"123,5"
+    },
+    {
+        "Descrição":"SpliceGrapa",
+        "ID":"SpliceGrapa4",
+        "Comprim.":4.0,
+        "Atributte":"Normal",
+        "StdTime":"114,4",
+        "StdTime AS":"114,4"
+    },
+    {
+        "Descrição":"SpliceGrapa",
+        "ID":"SpliceGrapa5",
+        "Comprim.":5.0,
+        "Atributte":"Normal",
+        "StdTime":"104",
+        "StdTime AS":"104"
+    },
+    {
+        "Descrição":"SpliceGrapa",
+        "ID":"SpliceGrapa6",
+        "Comprim.":6.0,
+        "Atributte":"Normal",
+        "StdTime":"78",
+        "StdTime AS":"78"
+    },
+    {
+        "Descrição":"SpliceGrapa",
+        "ID":"SpliceGrapa7",
+        "Comprim.":7.0,
+        "Atributte":"Normal",
+        "StdTime":"71,5",
+        "StdTime AS":"71,5"
+    },
+    {
+        "Descrição":"SpliceGrapa",
+        "ID":"SpliceGrapa8",
+        "Comprim.":8.0,
+        "Atributte":"Normal",
+        "StdTime":"65",
+        "StdTime AS":"65"
+    },
+    {
+        "Descrição":"SpliceGrapa",
+        "ID":"SpliceGrapa9",
+        "Comprim.":9.0,
+        "Atributte":"Normal",
+        "StdTime":"61,1",
+        "StdTime AS":"61,1"
+    },
+    {
+        "Descrição":"SpliceGrapa",
+        "ID":"SpliceGrapa10",
+        "Comprim.":10.0,
+        "Atributte":"Normal",
+        "StdTime":"50",
+        "StdTime AS":"50"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS40Plus2",
+        "Comprim.":2.0,
+        "Atributte":"HG",
+        "StdTime":"120",
+        "StdTime AS":"120"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS40Plus3",
+        "Comprim.":3.0,
+        "Atributte":"HG",
+        "StdTime":"105",
+        "StdTime AS":"105"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS40Plus4",
+        "Comprim.":4.0,
+        "Atributte":"HG",
+        "StdTime":"95",
+        "StdTime AS":"95"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS40Plus5",
+        "Comprim.":5.0,
+        "Atributte":"HG",
+        "StdTime":"88",
+        "StdTime AS":"88"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS40Plus6",
+        "Comprim.":6.0,
+        "Atributte":"HG",
+        "StdTime":"80",
+        "StdTime AS":"80"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS40Plus7",
+        "Comprim.":7.0,
+        "Atributte":"HG",
+        "StdTime":"60",
+        "StdTime AS":"60"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS40Plus8",
+        "Comprim.":8.0,
+        "Atributte":"HG",
+        "StdTime":"55",
+        "StdTime AS":"55"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS40Plus9",
+        "Comprim.":9.0,
+        "Atributte":"HG",
+        "StdTime":"50",
+        "StdTime AS":"50"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS40Plus10",
+        "Comprim.":10.0,
+        "Atributte":"HG",
+        "StdTime":"47",
+        "StdTime AS":"47"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS50Plus2",
+        "Comprim.":2.0,
+        "Atributte":"HG",
+        "StdTime":"115",
+        "StdTime AS":"115"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS50Plus3",
+        "Comprim.":3.0,
+        "Atributte":"HG",
+        "StdTime":"100",
+        "StdTime AS":"100"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS50Plus4",
+        "Comprim.":4.0,
+        "Atributte":"HG",
+        "StdTime":"90",
+        "StdTime AS":"90"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS50Plus5",
+        "Comprim.":5.0,
+        "Atributte":"HG",
+        "StdTime":"80",
+        "StdTime AS":"80"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS50Plus6",
+        "Comprim.":6.0,
+        "Atributte":"HG",
+        "StdTime":"75",
+        "StdTime AS":"75"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS50Plus7",
+        "Comprim.":7.0,
+        "Atributte":"HG",
+        "StdTime":"65",
+        "StdTime AS":"65"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS50Plus8",
+        "Comprim.":8.0,
+        "Atributte":"HG",
+        "StdTime":"55",
+        "StdTime AS":"55"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS50Plus9",
+        "Comprim.":9.0,
+        "Atributte":"HG",
+        "StdTime":"50",
+        "StdTime AS":"50"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Special",
+        "ID":"GS50Plus10",
+        "Comprim.":10.0,
+        "Atributte":"HG",
+        "StdTime":"47",
+        "StdTime AS":"47"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Bateria",
+        "ID":"LS2002",
+        "Comprim.":2.0,
+        "Atributte":"HG",
+        "StdTime":"80",
+        "StdTime AS":"80"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Bateria",
+        "ID":"LS2003",
+        "Comprim.":3.0,
+        "Atributte":"HG",
+        "StdTime":"75",
+        "StdTime AS":"75"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Bateria",
+        "ID":"LS2004",
+        "Comprim.":4.0,
+        "Atributte":"HG",
+        "StdTime":"70",
+        "StdTime AS":"70"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Bateria",
+        "ID":"LS2005",
+        "Comprim.":5.0,
+        "Atributte":"HG",
+        "StdTime":"60",
+        "StdTime AS":"60"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Bateria",
+        "ID":"LS2006",
+        "Comprim.":6.0,
+        "Atributte":"HG",
+        "StdTime":"55",
+        "StdTime AS":"55"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Bateria",
+        "ID":"LS2007",
+        "Comprim.":7.0,
+        "Atributte":"HG",
+        "StdTime":"50",
+        "StdTime AS":"50"
+    },
+    {
+        "Descrição":"Solda Ultrassônica Bateria",
+        "ID":"LS2008",
+        "Comprim.":8.0,
+        "Atributte":"HG",
+        "StdTime":"45",
+        "StdTime AS":"45"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D21",
+        "Comprim.":1.0,
+        "Atributte":"Duplo",
+        "StdTime":"600",
+        "StdTime AS":"600"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D22",
+        "Comprim.":2.0,
+        "Atributte":"Duplo",
+        "StdTime":"588",
+        "StdTime AS":"588"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D23",
+        "Comprim.":3.0,
+        "Atributte":"Duplo",
+        "StdTime":"576,24",
+        "StdTime AS":"576,24"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D24",
+        "Comprim.":4.0,
+        "Atributte":"Duplo",
+        "StdTime":"564,7152",
+        "StdTime AS":"564,7152"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D25",
+        "Comprim.":5.0,
+        "Atributte":"Duplo",
+        "StdTime":"553,420896",
+        "StdTime AS":"553,420896"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D26",
+        "Comprim.":6.0,
+        "Atributte":"Duplo",
+        "StdTime":"542,3524781",
+        "StdTime AS":"542,3524781"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D27",
+        "Comprim.":7.0,
+        "Atributte":"Duplo",
+        "StdTime":"531,5054285",
+        "StdTime AS":"531,5054285"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D28",
+        "Comprim.":8.0,
+        "Atributte":"Duplo",
+        "StdTime":"520,8753199",
+        "StdTime AS":"520,8753199"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D29",
+        "Comprim.":9.0,
+        "Atributte":"Duplo",
+        "StdTime":"510,4578135",
+        "StdTime AS":"510,4578135"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D210",
+        "Comprim.":10.0,
+        "Atributte":"Duplo",
+        "StdTime":"500,2486573",
+        "StdTime AS":"500,2486573"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D211",
+        "Comprim.":11.0,
+        "Atributte":"Duplo",
+        "StdTime":"490,2436841",
+        "StdTime AS":"490,2436841"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D212",
+        "Comprim.":12.0,
+        "Atributte":"Duplo",
+        "StdTime":"480,4388104",
+        "StdTime AS":"480,4388104"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D213",
+        "Comprim.":13.0,
+        "Atributte":"Duplo",
+        "StdTime":"470,8300342",
+        "StdTime AS":"470,8300342"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D214",
+        "Comprim.":14.0,
+        "Atributte":"Duplo",
+        "StdTime":"461,4134336",
+        "StdTime AS":"461,4134336"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D215",
+        "Comprim.":15.0,
+        "Atributte":"Duplo",
+        "StdTime":"452,1851649",
+        "StdTime AS":"452,1851649"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D216",
+        "Comprim.":16.0,
+        "Atributte":"Duplo",
+        "StdTime":"443,1414616",
+        "StdTime AS":"443,1414616"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D217",
+        "Comprim.":17.0,
+        "Atributte":"Duplo",
+        "StdTime":"434,2786324",
+        "StdTime AS":"434,2786324"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D218",
+        "Comprim.":18.0,
+        "Atributte":"Duplo",
+        "StdTime":"425,5930597",
+        "StdTime AS":"425,5930597"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D219",
+        "Comprim.":19.0,
+        "Atributte":"Duplo",
+        "StdTime":"417,0811985",
+        "StdTime AS":"417,0811985"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D220",
+        "Comprim.":20.0,
+        "Atributte":"Duplo",
+        "StdTime":"408,7395745",
+        "StdTime AS":"408,7395745"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D221",
+        "Comprim.":21.0,
+        "Atributte":"Duplo",
+        "StdTime":"400,5647831",
+        "StdTime AS":"400,5647831"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D222",
+        "Comprim.":22.0,
+        "Atributte":"Duplo",
+        "StdTime":"392,5534874",
+        "StdTime AS":"392,5534874"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D223",
+        "Comprim.":23.0,
+        "Atributte":"Duplo",
+        "StdTime":"384,7024176",
+        "StdTime AS":"384,7024176"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D224",
+        "Comprim.":24.0,
+        "Atributte":"Duplo",
+        "StdTime":"377,0083693",
+        "StdTime AS":"377,0083693"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D225",
+        "Comprim.":25.0,
+        "Atributte":"Duplo",
+        "StdTime":"369,4682019",
+        "StdTime AS":"369,4682019"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D226",
+        "Comprim.":26.0,
+        "Atributte":"Duplo",
+        "StdTime":"362,0788379",
+        "StdTime AS":"362,0788379"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D227",
+        "Comprim.":27.0,
+        "Atributte":"Duplo",
+        "StdTime":"354,8372611",
+        "StdTime AS":"354,8372611"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D228",
+        "Comprim.":28.0,
+        "Atributte":"Duplo",
+        "StdTime":"347,7405159",
+        "StdTime AS":"347,7405159"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D229",
+        "Comprim.":29.0,
+        "Atributte":"Duplo",
+        "StdTime":"340,7857056",
+        "StdTime AS":"340,7857056"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D230",
+        "Comprim.":30.0,
+        "Atributte":"Duplo",
+        "StdTime":"333,9699915",
+        "StdTime AS":"333,9699915"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D31",
+        "Comprim.":1.0,
+        "Atributte":"Triple",
+        "StdTime":"500",
+        "StdTime AS":"500"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D32",
+        "Comprim.":2.0,
+        "Atributte":"Triple",
+        "StdTime":"475",
+        "StdTime AS":"475"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D33",
+        "Comprim.":3.0,
+        "Atributte":"Triple",
+        "StdTime":"451,25",
+        "StdTime AS":"451,25"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D34",
+        "Comprim.":4.0,
+        "Atributte":"Triple",
+        "StdTime":"428,6875",
+        "StdTime AS":"428,6875"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D35",
+        "Comprim.":5.0,
+        "Atributte":"Triple",
+        "StdTime":"407,253125",
+        "StdTime AS":"407,253125"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D36",
+        "Comprim.":6.0,
+        "Atributte":"Triple",
+        "StdTime":"386,8904688",
+        "StdTime AS":"386,8904688"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D37",
+        "Comprim.":7.0,
+        "Atributte":"Triple",
+        "StdTime":"367,5459453",
+        "StdTime AS":"367,5459453"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D38",
+        "Comprim.":8.0,
+        "Atributte":"Triple",
+        "StdTime":"349,168648",
+        "StdTime AS":"349,168648"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D39",
+        "Comprim.":9.0,
+        "Atributte":"Triple",
+        "StdTime":"331,7102156",
+        "StdTime AS":"331,7102156"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D310",
+        "Comprim.":10.0,
+        "Atributte":"Triple",
+        "StdTime":"315,1247049",
+        "StdTime AS":"315,1247049"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D311",
+        "Comprim.":11.0,
+        "Atributte":"Triple",
+        "StdTime":"299,3684696",
+        "StdTime AS":"299,3684696"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D312",
+        "Comprim.":12.0,
+        "Atributte":"Triple",
+        "StdTime":"284,4000461",
+        "StdTime AS":"284,4000461"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D313",
+        "Comprim.":13.0,
+        "Atributte":"Triple",
+        "StdTime":"270,1800438",
+        "StdTime AS":"270,1800438"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D314",
+        "Comprim.":14.0,
+        "Atributte":"Triple",
+        "StdTime":"256,6710416",
+        "StdTime AS":"256,6710416"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D315",
+        "Comprim.":15.0,
+        "Atributte":"Triple",
+        "StdTime":"243,8374896",
+        "StdTime AS":"243,8374896"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D316",
+        "Comprim.":16.0,
+        "Atributte":"Triple",
+        "StdTime":"231,6456151",
+        "StdTime AS":"231,6456151"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D317",
+        "Comprim.":17.0,
+        "Atributte":"Triple",
+        "StdTime":"220,0633343",
+        "StdTime AS":"220,0633343"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D318",
+        "Comprim.":18.0,
+        "Atributte":"Triple",
+        "StdTime":"209,0601676",
+        "StdTime AS":"209,0601676"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D319",
+        "Comprim.":19.0,
+        "Atributte":"Triple",
+        "StdTime":"198,6071592",
+        "StdTime AS":"198,6071592"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D320",
+        "Comprim.":20.0,
+        "Atributte":"Triple",
+        "StdTime":"188,6768013",
+        "StdTime AS":"188,6768013"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D321",
+        "Comprim.":21.0,
+        "Atributte":"Triple",
+        "StdTime":"179,2429612",
+        "StdTime AS":"179,2429612"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D322",
+        "Comprim.":22.0,
+        "Atributte":"Triple",
+        "StdTime":"170,2808131",
+        "StdTime AS":"170,2808131"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D323",
+        "Comprim.":23.0,
+        "Atributte":"Triple",
+        "StdTime":"161,7667725",
+        "StdTime AS":"161,7667725"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D324",
+        "Comprim.":24.0,
+        "Atributte":"Triple",
+        "StdTime":"153,6784339",
+        "StdTime AS":"153,6784339"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D325",
+        "Comprim.":25.0,
+        "Atributte":"Triple",
+        "StdTime":"145,9945122",
+        "StdTime AS":"145,9945122"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D326",
+        "Comprim.":26.0,
+        "Atributte":"Triple",
+        "StdTime":"138,6947866",
+        "StdTime AS":"138,6947866"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D327",
+        "Comprim.":27.0,
+        "Atributte":"Triple",
+        "StdTime":"131,7600472",
+        "StdTime AS":"131,7600472"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D328",
+        "Comprim.":28.0,
+        "Atributte":"Triple",
+        "StdTime":"125,1720449",
+        "StdTime AS":"125,1720449"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D329",
+        "Comprim.":29.0,
+        "Atributte":"Triple",
+        "StdTime":"118,9134426",
+        "StdTime AS":"118,9134426"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"SCH3300D330",
+        "Comprim.":30.0,
+        "Atributte":"Triple",
+        "StdTime":"112,9677705",
+        "StdTime AS":"112,9677705"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax21",
+        "Comprim.":1.0,
+        "Atributte":"Duplo",
+        "StdTime":"372,958125",
+        "StdTime AS":"372,958125"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax22",
+        "Comprim.":2.0,
+        "Atributte":"Duplo",
+        "StdTime":"354,3102188",
+        "StdTime AS":"354,3102188"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax23",
+        "Comprim.":3.0,
+        "Atributte":"Duplo",
+        "StdTime":"336,5947078",
+        "StdTime AS":"336,5947078"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax24",
+        "Comprim.":4.0,
+        "Atributte":"Duplo",
+        "StdTime":"319,7649724",
+        "StdTime AS":"319,7649724"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax25",
+        "Comprim.":5.0,
+        "Atributte":"Duplo",
+        "StdTime":"303,7767238",
+        "StdTime AS":"303,7767238"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax26",
+        "Comprim.":6.0,
+        "Atributte":"Duplo",
+        "StdTime":"288,5878876",
+        "StdTime AS":"288,5878876"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax27",
+        "Comprim.":7.0,
+        "Atributte":"Duplo",
+        "StdTime":"274,1584932",
+        "StdTime AS":"274,1584932"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax28",
+        "Comprim.":8.0,
+        "Atributte":"Duplo",
+        "StdTime":"260,4505686",
+        "StdTime AS":"260,4505686"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax29",
+        "Comprim.":9.0,
+        "Atributte":"Duplo",
+        "StdTime":"247,4280401",
+        "StdTime AS":"247,4280401"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax210",
+        "Comprim.":10.0,
+        "Atributte":"Duplo",
+        "StdTime":"235,0566381",
+        "StdTime AS":"235,0566381"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax211",
+        "Comprim.":11.0,
+        "Atributte":"Duplo",
+        "StdTime":"223,3038062",
+        "StdTime AS":"223,3038062"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax212",
+        "Comprim.":12.0,
+        "Atributte":"Duplo",
+        "StdTime":"212,1386159",
+        "StdTime AS":"212,1386159"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax213",
+        "Comprim.":13.0,
+        "Atributte":"Duplo",
+        "StdTime":"201,5316851",
+        "StdTime AS":"201,5316851"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax214",
+        "Comprim.":14.0,
+        "Atributte":"Duplo",
+        "StdTime":"191,4551009",
+        "StdTime AS":"191,4551009"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax215",
+        "Comprim.":15.0,
+        "Atributte":"Duplo",
+        "StdTime":"181,8823458",
+        "StdTime AS":"181,8823458"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax216",
+        "Comprim.":16.0,
+        "Atributte":"Duplo",
+        "StdTime":"172,7882285",
+        "StdTime AS":"172,7882285"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax217",
+        "Comprim.":17.0,
+        "Atributte":"Duplo",
+        "StdTime":"164,1488171",
+        "StdTime AS":"164,1488171"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax218",
+        "Comprim.":18.0,
+        "Atributte":"Duplo",
+        "StdTime":"155,9413762",
+        "StdTime AS":"155,9413762"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax219",
+        "Comprim.":19.0,
+        "Atributte":"Duplo",
+        "StdTime":"148,1443074",
+        "StdTime AS":"148,1443074"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax220",
+        "Comprim.":20.0,
+        "Atributte":"Duplo",
+        "StdTime":"140,7370921",
+        "StdTime AS":"140,7370921"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax221",
+        "Comprim.":21.0,
+        "Atributte":"Duplo",
+        "StdTime":"133,7002375",
+        "StdTime AS":"133,7002375"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax222",
+        "Comprim.":22.0,
+        "Atributte":"Duplo",
+        "StdTime":"127,0152256",
+        "StdTime AS":"127,0152256"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax223",
+        "Comprim.":23.0,
+        "Atributte":"Duplo",
+        "StdTime":"120,6644643",
+        "StdTime AS":"120,6644643"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax224",
+        "Comprim.":24.0,
+        "Atributte":"Duplo",
+        "StdTime":"114,6312411",
+        "StdTime AS":"114,6312411"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax225",
+        "Comprim.":25.0,
+        "Atributte":"Duplo",
+        "StdTime":"108,899679",
+        "StdTime AS":"108,899679"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax226",
+        "Comprim.":26.0,
+        "Atributte":"Duplo",
+        "StdTime":"103,4546951",
+        "StdTime AS":"103,4546951"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax227",
+        "Comprim.":27.0,
+        "Atributte":"Duplo",
+        "StdTime":"98,28196033",
+        "StdTime AS":"98,28196033"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax228",
+        "Comprim.":28.0,
+        "Atributte":"Duplo",
+        "StdTime":"600",
+        "StdTime AS":"600"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax229",
+        "Comprim.":29.0,
+        "Atributte":"Duplo",
+        "StdTime":"300",
+        "StdTime AS":"300"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax230",
+        "Comprim.":30.0,
+        "Atributte":"Duplo",
+        "StdTime":"285",
+        "StdTime AS":"285"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax31",
+        "Comprim.":1.0,
+        "Atributte":"Triple",
+        "StdTime":"270,75",
+        "StdTime AS":"270,75"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax32",
+        "Comprim.":2.0,
+        "Atributte":"Triple",
+        "StdTime":"257,2125",
+        "StdTime AS":"257,2125"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax33",
+        "Comprim.":3.0,
+        "Atributte":"Triple",
+        "StdTime":"244,351875",
+        "StdTime AS":"244,351875"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax34",
+        "Comprim.":4.0,
+        "Atributte":"Triple",
+        "StdTime":"232,1342813",
+        "StdTime AS":"232,1342813"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax35",
+        "Comprim.":5.0,
+        "Atributte":"Triple",
+        "StdTime":"220,5275672",
+        "StdTime AS":"220,5275672"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax36",
+        "Comprim.":6.0,
+        "Atributte":"Triple",
+        "StdTime":"209,5011888",
+        "StdTime AS":"209,5011888"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax37",
+        "Comprim.":7.0,
+        "Atributte":"Triple",
+        "StdTime":"199,0261294",
+        "StdTime AS":"199,0261294"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax38",
+        "Comprim.":8.0,
+        "Atributte":"Triple",
+        "StdTime":"189,0748229",
+        "StdTime AS":"189,0748229"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax39",
+        "Comprim.":9.0,
+        "Atributte":"Triple",
+        "StdTime":"179,6210818",
+        "StdTime AS":"179,6210818"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax310",
+        "Comprim.":10.0,
+        "Atributte":"Triple",
+        "StdTime":"170,6400277",
+        "StdTime AS":"170,6400277"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax311",
+        "Comprim.":11.0,
+        "Atributte":"Triple",
+        "StdTime":"162,1080263",
+        "StdTime AS":"162,1080263"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax312",
+        "Comprim.":12.0,
+        "Atributte":"Triple",
+        "StdTime":"154,002625",
+        "StdTime AS":"154,002625"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax313",
+        "Comprim.":13.0,
+        "Atributte":"Triple",
+        "StdTime":"146,3024937",
+        "StdTime AS":"146,3024937"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax314",
+        "Comprim.":14.0,
+        "Atributte":"Triple",
+        "StdTime":"138,987369",
+        "StdTime AS":"138,987369"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax315",
+        "Comprim.":15.0,
+        "Atributte":"Triple",
+        "StdTime":"132,0380006",
+        "StdTime AS":"132,0380006"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax316",
+        "Comprim.":16.0,
+        "Atributte":"Triple",
+        "StdTime":"125,4361006",
+        "StdTime AS":"125,4361006"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax317",
+        "Comprim.":17.0,
+        "Atributte":"Triple",
+        "StdTime":"119,1642955",
+        "StdTime AS":"119,1642955"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax318",
+        "Comprim.":18.0,
+        "Atributte":"Triple",
+        "StdTime":"113,2060808",
+        "StdTime AS":"113,2060808"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax319",
+        "Comprim.":19.0,
+        "Atributte":"Triple",
+        "StdTime":"107,5457767",
+        "StdTime AS":"107,5457767"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax320",
+        "Comprim.":20.0,
+        "Atributte":"Triple",
+        "StdTime":"102,1684879",
+        "StdTime AS":"102,1684879"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax321",
+        "Comprim.":21.0,
+        "Atributte":"Triple",
+        "StdTime":"97,06006349",
+        "StdTime AS":"97,06006349"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax322",
+        "Comprim.":22.0,
+        "Atributte":"Triple",
+        "StdTime":"92,20706032",
+        "StdTime AS":"92,20706032"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax323",
+        "Comprim.":23.0,
+        "Atributte":"Triple",
+        "StdTime":"87,5967073",
+        "StdTime AS":"87,5967073"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax324",
+        "Comprim.":24.0,
+        "Atributte":"Triple",
+        "StdTime":"83,21687194",
+        "StdTime AS":"83,21687194"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax325",
+        "Comprim.":25.0,
+        "Atributte":"Triple",
+        "StdTime":"79,05602834",
+        "StdTime AS":"79,05602834"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax326",
+        "Comprim.":26.0,
+        "Atributte":"Triple",
+        "StdTime":"75,10322692",
+        "StdTime AS":"75,10322692"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax327",
+        "Comprim.":27.0,
+        "Atributte":"Triple",
+        "StdTime":"71,34806558",
+        "StdTime AS":"71,34806558"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax328",
+        "Comprim.":28.0,
+        "Atributte":"Triple",
+        "StdTime":"200",
+        "StdTime AS":"200"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax329",
+        "Comprim.":29.0,
+        "Atributte":"Triple",
+        "StdTime":"190",
+        "StdTime AS":"190"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax330",
+        "Comprim.":30.0,
+        "Atributte":"Triple",
+        "StdTime":"180,5",
+        "StdTime AS":"180,5"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax41",
+        "Comprim.":1.0,
+        "Atributte":"Quad",
+        "StdTime":"171,475",
+        "StdTime AS":"171,475"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax42",
+        "Comprim.":2.0,
+        "Atributte":"Quad",
+        "StdTime":"162,90125",
+        "StdTime AS":"162,90125"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax43",
+        "Comprim.":3.0,
+        "Atributte":"Quad",
+        "StdTime":"154,7561875",
+        "StdTime AS":"154,7561875"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax44",
+        "Comprim.":4.0,
+        "Atributte":"Quad",
+        "StdTime":"147,0183781",
+        "StdTime AS":"147,0183781"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax45",
+        "Comprim.":5.0,
+        "Atributte":"Quad",
+        "StdTime":"139,6674592",
+        "StdTime AS":"139,6674592"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax46",
+        "Comprim.":6.0,
+        "Atributte":"Quad",
+        "StdTime":"132,6840863",
+        "StdTime AS":"132,6840863"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax47",
+        "Comprim.":7.0,
+        "Atributte":"Quad",
+        "StdTime":"126,0498819",
+        "StdTime AS":"126,0498819"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax48",
+        "Comprim.":8.0,
+        "Atributte":"Quad",
+        "StdTime":"119,7473878",
+        "StdTime AS":"119,7473878"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax49",
+        "Comprim.":9.0,
+        "Atributte":"Quad",
+        "StdTime":"113,7600185",
+        "StdTime AS":"113,7600185"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax410",
+        "Comprim.":10.0,
+        "Atributte":"Quad",
+        "StdTime":"108,0720175",
+        "StdTime AS":"108,0720175"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax411",
+        "Comprim.":11.0,
+        "Atributte":"Quad",
+        "StdTime":"102,6684167",
+        "StdTime AS":"102,6684167"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax412",
+        "Comprim.":12.0,
+        "Atributte":"Quad",
+        "StdTime":"97,53499582",
+        "StdTime AS":"97,53499582"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax413",
+        "Comprim.":13.0,
+        "Atributte":"Quad",
+        "StdTime":"92,65824603",
+        "StdTime AS":"92,65824603"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax414",
+        "Comprim.":14.0,
+        "Atributte":"Quad",
+        "StdTime":"88,02533373",
+        "StdTime AS":"88,02533373"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax415",
+        "Comprim.":15.0,
+        "Atributte":"Quad",
+        "StdTime":"83,62406704",
+        "StdTime AS":"83,62406704"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax416",
+        "Comprim.":16.0,
+        "Atributte":"Quad",
+        "StdTime":"79,44286369",
+        "StdTime AS":"79,44286369"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax417",
+        "Comprim.":17.0,
+        "Atributte":"Quad",
+        "StdTime":"75,47072051",
+        "StdTime AS":"75,47072051"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax418",
+        "Comprim.":18.0,
+        "Atributte":"Quad",
+        "StdTime":"71,69718448",
+        "StdTime AS":"71,69718448"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax419",
+        "Comprim.":19.0,
+        "Atributte":"Quad",
+        "StdTime":"68,11232526",
+        "StdTime AS":"68,11232526"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax420",
+        "Comprim.":20.0,
+        "Atributte":"Quad",
+        "StdTime":"64,70670899",
+        "StdTime AS":"64,70670899"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax421",
+        "Comprim.":21.0,
+        "Atributte":"Quad",
+        "StdTime":"61,47137355",
+        "StdTime AS":"61,47137355"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax422",
+        "Comprim.":22.0,
+        "Atributte":"Quad",
+        "StdTime":"58,39780487",
+        "StdTime AS":"58,39780487"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax423",
+        "Comprim.":23.0,
+        "Atributte":"Quad",
+        "StdTime":"55,47791462",
+        "StdTime AS":"55,47791462"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax424",
+        "Comprim.":24.0,
+        "Atributte":"Quad",
+        "StdTime":"52,70401889",
+        "StdTime AS":"52,70401889"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax425",
+        "Comprim.":25.0,
+        "Atributte":"Quad",
+        "StdTime":"50,06881795",
+        "StdTime AS":"50,06881795"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax426",
+        "Comprim.":26.0,
+        "Atributte":"Quad",
+        "StdTime":"47,56537705",
+        "StdTime AS":"47,56537705"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax427",
+        "Comprim.":27.0,
+        "Atributte":"Quad",
+        "StdTime":"45,1871082",
+        "StdTime AS":"45,1871082"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax428",
+        "Comprim.":28.0,
+        "Atributte":"Quad",
+        "StdTime":"50,06881795",
+        "StdTime AS":"50,06881795"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax429",
+        "Comprim.":29.0,
+        "Atributte":"Quad",
+        "StdTime":"47,56537705",
+        "StdTime AS":"47,56537705"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT188Komax430",
+        "Comprim.":30.0,
+        "Atributte":"Quad",
+        "StdTime":"45,1871082",
+        "StdTime AS":"45,1871082"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax21",
+        "Comprim.":1.0,
+        "Atributte":"Duplo",
+        "StdTime":"600",
+        "StdTime AS":"600"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax22",
+        "Comprim.":2.0,
+        "Atributte":"Duplo",
+        "StdTime":"570",
+        "StdTime AS":"570"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax23",
+        "Comprim.":3.0,
+        "Atributte":"Duplo",
+        "StdTime":"541,5",
+        "StdTime AS":"541,5"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax24",
+        "Comprim.":4.0,
+        "Atributte":"Duplo",
+        "StdTime":"514,425",
+        "StdTime AS":"514,425"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax25",
+        "Comprim.":5.0,
+        "Atributte":"Duplo",
+        "StdTime":"488,70375",
+        "StdTime AS":"488,70375"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax26",
+        "Comprim.":6.0,
+        "Atributte":"Duplo",
+        "StdTime":"464,2685625",
+        "StdTime AS":"464,2685625"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax27",
+        "Comprim.":7.0,
+        "Atributte":"Duplo",
+        "StdTime":"441,0551344",
+        "StdTime AS":"441,0551344"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax28",
+        "Comprim.":8.0,
+        "Atributte":"Duplo",
+        "StdTime":"419,0023777",
+        "StdTime AS":"419,0023777"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax29",
+        "Comprim.":9.0,
+        "Atributte":"Duplo",
+        "StdTime":"398,0522588",
+        "StdTime AS":"398,0522588"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax210",
+        "Comprim.":10.0,
+        "Atributte":"Duplo",
+        "StdTime":"378,1496458",
+        "StdTime AS":"378,1496458"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax211",
+        "Comprim.":11.0,
+        "Atributte":"Duplo",
+        "StdTime":"359,2421635",
+        "StdTime AS":"359,2421635"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax212",
+        "Comprim.":12.0,
+        "Atributte":"Duplo",
+        "StdTime":"341,2800554",
+        "StdTime AS":"341,2800554"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax213",
+        "Comprim.":13.0,
+        "Atributte":"Duplo",
+        "StdTime":"324,2160526",
+        "StdTime AS":"324,2160526"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax214",
+        "Comprim.":14.0,
+        "Atributte":"Duplo",
+        "StdTime":"308,00525",
+        "StdTime AS":"308,00525"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax215",
+        "Comprim.":15.0,
+        "Atributte":"Duplo",
+        "StdTime":"292,6049875",
+        "StdTime AS":"292,6049875"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax216",
+        "Comprim.":16.0,
+        "Atributte":"Duplo",
+        "StdTime":"277,9747381",
+        "StdTime AS":"277,9747381"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax217",
+        "Comprim.":17.0,
+        "Atributte":"Duplo",
+        "StdTime":"264,0760012",
+        "StdTime AS":"264,0760012"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax218",
+        "Comprim.":18.0,
+        "Atributte":"Duplo",
+        "StdTime":"250,8722011",
+        "StdTime AS":"250,8722011"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax219",
+        "Comprim.":19.0,
+        "Atributte":"Duplo",
+        "StdTime":"238,3285911",
+        "StdTime AS":"238,3285911"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax220",
+        "Comprim.":20.0,
+        "Atributte":"Duplo",
+        "StdTime":"226,4121615",
+        "StdTime AS":"226,4121615"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax221",
+        "Comprim.":21.0,
+        "Atributte":"Duplo",
+        "StdTime":"215,0915534",
+        "StdTime AS":"215,0915534"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax222",
+        "Comprim.":22.0,
+        "Atributte":"Duplo",
+        "StdTime":"204,3369758",
+        "StdTime AS":"204,3369758"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax223",
+        "Comprim.":23.0,
+        "Atributte":"Duplo",
+        "StdTime":"194,120127",
+        "StdTime AS":"194,120127"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax224",
+        "Comprim.":24.0,
+        "Atributte":"Duplo",
+        "StdTime":"184,4141206",
+        "StdTime AS":"184,4141206"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax225",
+        "Comprim.":25.0,
+        "Atributte":"Duplo",
+        "StdTime":"175,1934146",
+        "StdTime AS":"175,1934146"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax226",
+        "Comprim.":26.0,
+        "Atributte":"Duplo",
+        "StdTime":"166,4337439",
+        "StdTime AS":"166,4337439"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax227",
+        "Comprim.":27.0,
+        "Atributte":"Duplo",
+        "StdTime":"158,1120567",
+        "StdTime AS":"158,1120567"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax228",
+        "Comprim.":28.0,
+        "Atributte":"Duplo",
+        "StdTime":"150,2064538",
+        "StdTime AS":"150,2064538"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax229",
+        "Comprim.":29.0,
+        "Atributte":"Duplo",
+        "StdTime":"142,6961312",
+        "StdTime AS":"142,6961312"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax230",
+        "Comprim.":30.0,
+        "Atributte":"Duplo",
+        "StdTime":"135,5613246",
+        "StdTime AS":"135,5613246"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax31",
+        "Comprim.":1.0,
+        "Atributte":"Triple",
+        "StdTime":"500",
+        "StdTime AS":"500"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax32",
+        "Comprim.":2.0,
+        "Atributte":"Triple",
+        "StdTime":"475",
+        "StdTime AS":"475"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax33",
+        "Comprim.":3.0,
+        "Atributte":"Triple",
+        "StdTime":"451,25",
+        "StdTime AS":"451,25"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax34",
+        "Comprim.":4.0,
+        "Atributte":"Triple",
+        "StdTime":"428,6875",
+        "StdTime AS":"428,6875"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax35",
+        "Comprim.":5.0,
+        "Atributte":"Triple",
+        "StdTime":"407,253125",
+        "StdTime AS":"407,253125"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax36",
+        "Comprim.":6.0,
+        "Atributte":"Triple",
+        "StdTime":"386,8904688",
+        "StdTime AS":"386,8904688"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax37",
+        "Comprim.":7.0,
+        "Atributte":"Triple",
+        "StdTime":"367,5459453",
+        "StdTime AS":"367,5459453"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax38",
+        "Comprim.":8.0,
+        "Atributte":"Triple",
+        "StdTime":"349,168648",
+        "StdTime AS":"349,168648"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax39",
+        "Comprim.":9.0,
+        "Atributte":"Triple",
+        "StdTime":"331,7102156",
+        "StdTime AS":"331,7102156"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax310",
+        "Comprim.":10.0,
+        "Atributte":"Triple",
+        "StdTime":"315,1247049",
+        "StdTime AS":"315,1247049"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax311",
+        "Comprim.":11.0,
+        "Atributte":"Triple",
+        "StdTime":"299,3684696",
+        "StdTime AS":"299,3684696"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax312",
+        "Comprim.":12.0,
+        "Atributte":"Triple",
+        "StdTime":"284,4000461",
+        "StdTime AS":"284,4000461"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax313",
+        "Comprim.":13.0,
+        "Atributte":"Triple",
+        "StdTime":"270,1800438",
+        "StdTime AS":"270,1800438"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax314",
+        "Comprim.":14.0,
+        "Atributte":"Triple",
+        "StdTime":"256,6710416",
+        "StdTime AS":"256,6710416"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax315",
+        "Comprim.":15.0,
+        "Atributte":"Triple",
+        "StdTime":"243,8374896",
+        "StdTime AS":"243,8374896"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax316",
+        "Comprim.":16.0,
+        "Atributte":"Triple",
+        "StdTime":"231,6456151",
+        "StdTime AS":"231,6456151"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax317",
+        "Comprim.":17.0,
+        "Atributte":"Triple",
+        "StdTime":"220,0633343",
+        "StdTime AS":"220,0633343"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax318",
+        "Comprim.":18.0,
+        "Atributte":"Triple",
+        "StdTime":"209,0601676",
+        "StdTime AS":"209,0601676"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax319",
+        "Comprim.":19.0,
+        "Atributte":"Triple",
+        "StdTime":"198,6071592",
+        "StdTime AS":"198,6071592"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax320",
+        "Comprim.":20.0,
+        "Atributte":"Triple",
+        "StdTime":"188,6768013",
+        "StdTime AS":"188,6768013"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax321",
+        "Comprim.":21.0,
+        "Atributte":"Triple",
+        "StdTime":"179,2429612",
+        "StdTime AS":"179,2429612"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax322",
+        "Comprim.":22.0,
+        "Atributte":"Triple",
+        "StdTime":"170,2808131",
+        "StdTime AS":"170,2808131"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax323",
+        "Comprim.":23.0,
+        "Atributte":"Triple",
+        "StdTime":"161,7667725",
+        "StdTime AS":"161,7667725"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax324",
+        "Comprim.":24.0,
+        "Atributte":"Triple",
+        "StdTime":"153,6784339",
+        "StdTime AS":"153,6784339"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax325",
+        "Comprim.":25.0,
+        "Atributte":"Triple",
+        "StdTime":"145,9945122",
+        "StdTime AS":"145,9945122"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax326",
+        "Comprim.":26.0,
+        "Atributte":"Triple",
+        "StdTime":"138,6947866",
+        "StdTime AS":"138,6947866"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax327",
+        "Comprim.":27.0,
+        "Atributte":"Triple",
+        "StdTime":"131,7600472",
+        "StdTime AS":"131,7600472"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax328",
+        "Comprim.":28.0,
+        "Atributte":"Triple",
+        "StdTime":"125,1720449",
+        "StdTime AS":"125,1720449"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax329",
+        "Comprim.":29.0,
+        "Atributte":"Triple",
+        "StdTime":"118,9134426",
+        "StdTime AS":"118,9134426"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax330",
+        "Comprim.":30.0,
+        "Atributte":"Triple",
+        "StdTime":"112,9677705",
+        "StdTime AS":"112,9677705"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax41",
+        "Comprim.":1.0,
+        "Atributte":"Quad",
+        "StdTime":"400",
+        "StdTime AS":"400"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax42",
+        "Comprim.":2.0,
+        "Atributte":"Quad",
+        "StdTime":"380",
+        "StdTime AS":"380"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax43",
+        "Comprim.":3.0,
+        "Atributte":"Quad",
+        "StdTime":"361",
+        "StdTime AS":"361"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax44",
+        "Comprim.":4.0,
+        "Atributte":"Quad",
+        "StdTime":"342,95",
+        "StdTime AS":"342,95"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax45",
+        "Comprim.":5.0,
+        "Atributte":"Quad",
+        "StdTime":"325,8025",
+        "StdTime AS":"325,8025"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax46",
+        "Comprim.":6.0,
+        "Atributte":"Quad",
+        "StdTime":"309,512375",
+        "StdTime AS":"309,512375"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax47",
+        "Comprim.":7.0,
+        "Atributte":"Quad",
+        "StdTime":"294,0367563",
+        "StdTime AS":"294,0367563"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax48",
+        "Comprim.":8.0,
+        "Atributte":"Quad",
+        "StdTime":"279,3349184",
+        "StdTime AS":"279,3349184"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax49",
+        "Comprim.":9.0,
+        "Atributte":"Quad",
+        "StdTime":"265,3681725",
+        "StdTime AS":"265,3681725"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax410",
+        "Comprim.":10.0,
+        "Atributte":"Quad",
+        "StdTime":"252,0997639",
+        "StdTime AS":"252,0997639"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax411",
+        "Comprim.":11.0,
+        "Atributte":"Quad",
+        "StdTime":"239,4947757",
+        "StdTime AS":"239,4947757"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax412",
+        "Comprim.":12.0,
+        "Atributte":"Quad",
+        "StdTime":"227,5200369",
+        "StdTime AS":"227,5200369"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax413",
+        "Comprim.":13.0,
+        "Atributte":"Quad",
+        "StdTime":"216,1440351",
+        "StdTime AS":"216,1440351"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax414",
+        "Comprim.":14.0,
+        "Atributte":"Quad",
+        "StdTime":"205,3368333",
+        "StdTime AS":"205,3368333"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax415",
+        "Comprim.":15.0,
+        "Atributte":"Quad",
+        "StdTime":"195,0699916",
+        "StdTime AS":"195,0699916"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax416",
+        "Comprim.":16.0,
+        "Atributte":"Quad",
+        "StdTime":"185,3164921",
+        "StdTime AS":"185,3164921"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax417",
+        "Comprim.":17.0,
+        "Atributte":"Quad",
+        "StdTime":"176,0506675",
+        "StdTime AS":"176,0506675"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax418",
+        "Comprim.":18.0,
+        "Atributte":"Quad",
+        "StdTime":"167,2481341",
+        "StdTime AS":"167,2481341"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax419",
+        "Comprim.":19.0,
+        "Atributte":"Quad",
+        "StdTime":"158,8857274",
+        "StdTime AS":"158,8857274"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax420",
+        "Comprim.":20.0,
+        "Atributte":"Quad",
+        "StdTime":"150,941441",
+        "StdTime AS":"150,941441"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax421",
+        "Comprim.":21.0,
+        "Atributte":"Quad",
+        "StdTime":"143,394369",
+        "StdTime AS":"143,394369"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax422",
+        "Comprim.":22.0,
+        "Atributte":"Quad",
+        "StdTime":"136,2246505",
+        "StdTime AS":"136,2246505"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax423",
+        "Comprim.":23.0,
+        "Atributte":"Quad",
+        "StdTime":"129,413418",
+        "StdTime AS":"129,413418"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax424",
+        "Comprim.":24.0,
+        "Atributte":"Quad",
+        "StdTime":"122,9427471",
+        "StdTime AS":"122,9427471"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax425",
+        "Comprim.":25.0,
+        "Atributte":"Quad",
+        "StdTime":"116,7956097",
+        "StdTime AS":"116,7956097"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax426",
+        "Comprim.":26.0,
+        "Atributte":"Quad",
+        "StdTime":"110,9558292",
+        "StdTime AS":"110,9558292"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax427",
+        "Comprim.":27.0,
+        "Atributte":"Quad",
+        "StdTime":"105,4080378",
+        "StdTime AS":"105,4080378"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax428",
+        "Comprim.":28.0,
+        "Atributte":"Quad",
+        "StdTime":"100,1376359",
+        "StdTime AS":"100,1376359"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax429",
+        "Comprim.":29.0,
+        "Atributte":"Quad",
+        "StdTime":"95,1307541",
+        "StdTime AS":"95,1307541"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"BT288Komax430",
+        "Comprim.":30.0,
+        "Atributte":"Quad",
+        "StdTime":"90,3742164",
+        "StdTime AS":"90,3742164"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec21",
+        "Comprim.":1.0,
+        "Atributte":"Duplo",
+        "StdTime":"600",
+        "StdTime AS":"600"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec22",
+        "Comprim.":2.0,
+        "Atributte":"Duplo",
+        "StdTime":"570",
+        "StdTime AS":"570"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec23",
+        "Comprim.":3.0,
+        "Atributte":"Duplo",
+        "StdTime":"541,5",
+        "StdTime AS":"541,5"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec24",
+        "Comprim.":4.0,
+        "Atributte":"Duplo",
+        "StdTime":"514,425",
+        "StdTime AS":"514,425"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec25",
+        "Comprim.":5.0,
+        "Atributte":"Duplo",
+        "StdTime":"488,70375",
+        "StdTime AS":"488,70375"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec26",
+        "Comprim.":6.0,
+        "Atributte":"Duplo",
+        "StdTime":"464,2685625",
+        "StdTime AS":"464,2685625"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec27",
+        "Comprim.":7.0,
+        "Atributte":"Duplo",
+        "StdTime":"441,0551344",
+        "StdTime AS":"441,0551344"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec28",
+        "Comprim.":8.0,
+        "Atributte":"Duplo",
+        "StdTime":"419,0023777",
+        "StdTime AS":"419,0023777"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec29",
+        "Comprim.":9.0,
+        "Atributte":"Duplo",
+        "StdTime":"398,0522588",
+        "StdTime AS":"398,0522588"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec210",
+        "Comprim.":10.0,
+        "Atributte":"Duplo",
+        "StdTime":"378,1496458",
+        "StdTime AS":"378,1496458"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec211",
+        "Comprim.":11.0,
+        "Atributte":"Duplo",
+        "StdTime":"359,2421635",
+        "StdTime AS":"359,2421635"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec212",
+        "Comprim.":12.0,
+        "Atributte":"Duplo",
+        "StdTime":"341,2800554",
+        "StdTime AS":"341,2800554"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec213",
+        "Comprim.":13.0,
+        "Atributte":"Duplo",
+        "StdTime":"324,2160526",
+        "StdTime AS":"324,2160526"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec214",
+        "Comprim.":14.0,
+        "Atributte":"Duplo",
+        "StdTime":"308,00525",
+        "StdTime AS":"308,00525"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec215",
+        "Comprim.":15.0,
+        "Atributte":"Duplo",
+        "StdTime":"292,6049875",
+        "StdTime AS":"292,6049875"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec216",
+        "Comprim.":16.0,
+        "Atributte":"Duplo",
+        "StdTime":"277,9747381",
+        "StdTime AS":"277,9747381"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec217",
+        "Comprim.":17.0,
+        "Atributte":"Duplo",
+        "StdTime":"264,0760012",
+        "StdTime AS":"264,0760012"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec218",
+        "Comprim.":18.0,
+        "Atributte":"Duplo",
+        "StdTime":"250,8722011",
+        "StdTime AS":"250,8722011"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec219",
+        "Comprim.":19.0,
+        "Atributte":"Duplo",
+        "StdTime":"238,3285911",
+        "StdTime AS":"238,3285911"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec220",
+        "Comprim.":20.0,
+        "Atributte":"Duplo",
+        "StdTime":"226,4121615",
+        "StdTime AS":"226,4121615"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec221",
+        "Comprim.":21.0,
+        "Atributte":"Duplo",
+        "StdTime":"215,0915534",
+        "StdTime AS":"215,0915534"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec222",
+        "Comprim.":22.0,
+        "Atributte":"Duplo",
+        "StdTime":"204,3369758",
+        "StdTime AS":"204,3369758"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec223",
+        "Comprim.":23.0,
+        "Atributte":"Duplo",
+        "StdTime":"194,120127",
+        "StdTime AS":"194,120127"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec224",
+        "Comprim.":24.0,
+        "Atributte":"Duplo",
+        "StdTime":"184,4141206",
+        "StdTime AS":"184,4141206"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec225",
+        "Comprim.":25.0,
+        "Atributte":"Duplo",
+        "StdTime":"175,1934146",
+        "StdTime AS":"175,1934146"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec226",
+        "Comprim.":26.0,
+        "Atributte":"Duplo",
+        "StdTime":"166,4337439",
+        "StdTime AS":"166,4337439"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec227",
+        "Comprim.":27.0,
+        "Atributte":"Duplo",
+        "StdTime":"158,1120567",
+        "StdTime AS":"158,1120567"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec228",
+        "Comprim.":28.0,
+        "Atributte":"Duplo",
+        "StdTime":"150,2064538",
+        "StdTime AS":"150,2064538"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec229",
+        "Comprim.":29.0,
+        "Atributte":"Duplo",
+        "StdTime":"142,6961312",
+        "StdTime AS":"142,6961312"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec230",
+        "Comprim.":30.0,
+        "Atributte":"Duplo",
+        "StdTime":"135,5613246",
+        "StdTime AS":"135,5613246"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec31",
+        "Comprim.":1.0,
+        "Atributte":"Triple",
+        "StdTime":"500",
+        "StdTime AS":"500"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec32",
+        "Comprim.":2.0,
+        "Atributte":"Triple",
+        "StdTime":"475",
+        "StdTime AS":"475"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec33",
+        "Comprim.":3.0,
+        "Atributte":"Triple",
+        "StdTime":"451,25",
+        "StdTime AS":"451,25"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec34",
+        "Comprim.":4.0,
+        "Atributte":"Triple",
+        "StdTime":"428,6875",
+        "StdTime AS":"428,6875"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec35",
+        "Comprim.":5.0,
+        "Atributte":"Triple",
+        "StdTime":"407,253125",
+        "StdTime AS":"407,253125"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec36",
+        "Comprim.":6.0,
+        "Atributte":"Triple",
+        "StdTime":"386,8904688",
+        "StdTime AS":"386,8904688"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec37",
+        "Comprim.":7.0,
+        "Atributte":"Triple",
+        "StdTime":"367,5459453",
+        "StdTime AS":"367,5459453"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec38",
+        "Comprim.":8.0,
+        "Atributte":"Triple",
+        "StdTime":"349,168648",
+        "StdTime AS":"349,168648"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec39",
+        "Comprim.":9.0,
+        "Atributte":"Triple",
+        "StdTime":"331,7102156",
+        "StdTime AS":"331,7102156"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec310",
+        "Comprim.":10.0,
+        "Atributte":"Triple",
+        "StdTime":"315,1247049",
+        "StdTime AS":"315,1247049"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec311",
+        "Comprim.":11.0,
+        "Atributte":"Triple",
+        "StdTime":"299,3684696",
+        "StdTime AS":"299,3684696"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec312",
+        "Comprim.":12.0,
+        "Atributte":"Triple",
+        "StdTime":"284,4000461",
+        "StdTime AS":"284,4000461"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec313",
+        "Comprim.":13.0,
+        "Atributte":"Triple",
+        "StdTime":"270,1800438",
+        "StdTime AS":"270,1800438"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec314",
+        "Comprim.":14.0,
+        "Atributte":"Triple",
+        "StdTime":"256,6710416",
+        "StdTime AS":"256,6710416"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec315",
+        "Comprim.":15.0,
+        "Atributte":"Triple",
+        "StdTime":"243,8374896",
+        "StdTime AS":"243,8374896"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec316",
+        "Comprim.":16.0,
+        "Atributte":"Triple",
+        "StdTime":"231,6456151",
+        "StdTime AS":"231,6456151"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec317",
+        "Comprim.":17.0,
+        "Atributte":"Triple",
+        "StdTime":"220,0633343",
+        "StdTime AS":"220,0633343"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec318",
+        "Comprim.":18.0,
+        "Atributte":"Triple",
+        "StdTime":"209,0601676",
+        "StdTime AS":"209,0601676"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec319",
+        "Comprim.":19.0,
+        "Atributte":"Triple",
+        "StdTime":"198,6071592",
+        "StdTime AS":"198,6071592"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec320",
+        "Comprim.":20.0,
+        "Atributte":"Triple",
+        "StdTime":"188,6768013",
+        "StdTime AS":"188,6768013"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec321",
+        "Comprim.":21.0,
+        "Atributte":"Triple",
+        "StdTime":"179,2429612",
+        "StdTime AS":"179,2429612"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec322",
+        "Comprim.":22.0,
+        "Atributte":"Triple",
+        "StdTime":"170,2808131",
+        "StdTime AS":"170,2808131"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec323",
+        "Comprim.":23.0,
+        "Atributte":"Triple",
+        "StdTime":"161,7667725",
+        "StdTime AS":"161,7667725"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec324",
+        "Comprim.":24.0,
+        "Atributte":"Triple",
+        "StdTime":"153,6784339",
+        "StdTime AS":"153,6784339"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec325",
+        "Comprim.":25.0,
+        "Atributte":"Triple",
+        "StdTime":"145,9945122",
+        "StdTime AS":"145,9945122"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec326",
+        "Comprim.":26.0,
+        "Atributte":"Triple",
+        "StdTime":"138,6947866",
+        "StdTime AS":"138,6947866"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec327",
+        "Comprim.":27.0,
+        "Atributte":"Triple",
+        "StdTime":"131,7600472",
+        "StdTime AS":"131,7600472"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec328",
+        "Comprim.":28.0,
+        "Atributte":"Triple",
+        "StdTime":"125,1720449",
+        "StdTime AS":"125,1720449"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec329",
+        "Comprim.":29.0,
+        "Atributte":"Triple",
+        "StdTime":"118,9134426",
+        "StdTime AS":"118,9134426"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec330",
+        "Comprim.":30.0,
+        "Atributte":"Triple",
+        "StdTime":"112,9677705",
+        "StdTime AS":"112,9677705"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec41",
+        "Comprim.":1.0,
+        "Atributte":"Quad",
+        "StdTime":"400",
+        "StdTime AS":"400"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec42",
+        "Comprim.":2.0,
+        "Atributte":"Quad",
+        "StdTime":"380",
+        "StdTime AS":"380"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec43",
+        "Comprim.":3.0,
+        "Atributte":"Quad",
+        "StdTime":"361",
+        "StdTime AS":"361"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec44",
+        "Comprim.":4.0,
+        "Atributte":"Quad",
+        "StdTime":"342,95",
+        "StdTime AS":"342,95"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec45",
+        "Comprim.":5.0,
+        "Atributte":"Quad",
+        "StdTime":"325,8025",
+        "StdTime AS":"325,8025"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec46",
+        "Comprim.":6.0,
+        "Atributte":"Quad",
+        "StdTime":"309,512375",
+        "StdTime AS":"309,512375"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec47",
+        "Comprim.":7.0,
+        "Atributte":"Quad",
+        "StdTime":"294,0367563",
+        "StdTime AS":"294,0367563"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec48",
+        "Comprim.":8.0,
+        "Atributte":"Quad",
+        "StdTime":"279,3349184",
+        "StdTime AS":"279,3349184"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec49",
+        "Comprim.":9.0,
+        "Atributte":"Quad",
+        "StdTime":"265,3681725",
+        "StdTime AS":"265,3681725"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec410",
+        "Comprim.":10.0,
+        "Atributte":"Quad",
+        "StdTime":"252,0997639",
+        "StdTime AS":"252,0997639"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec411",
+        "Comprim.":11.0,
+        "Atributte":"Quad",
+        "StdTime":"239,4947757",
+        "StdTime AS":"239,4947757"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec412",
+        "Comprim.":12.0,
+        "Atributte":"Quad",
+        "StdTime":"227,5200369",
+        "StdTime AS":"227,5200369"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec413",
+        "Comprim.":13.0,
+        "Atributte":"Quad",
+        "StdTime":"216,1440351",
+        "StdTime AS":"216,1440351"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec414",
+        "Comprim.":14.0,
+        "Atributte":"Quad",
+        "StdTime":"205,3368333",
+        "StdTime AS":"205,3368333"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec415",
+        "Comprim.":15.0,
+        "Atributte":"Quad",
+        "StdTime":"195,0699916",
+        "StdTime AS":"195,0699916"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec416",
+        "Comprim.":16.0,
+        "Atributte":"Quad",
+        "StdTime":"185,3164921",
+        "StdTime AS":"185,3164921"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec417",
+        "Comprim.":17.0,
+        "Atributte":"Quad",
+        "StdTime":"176,0506675",
+        "StdTime AS":"176,0506675"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec418",
+        "Comprim.":18.0,
+        "Atributte":"Quad",
+        "StdTime":"167,2481341",
+        "StdTime AS":"167,2481341"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec419",
+        "Comprim.":19.0,
+        "Atributte":"Quad",
+        "StdTime":"158,8857274",
+        "StdTime AS":"158,8857274"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec420",
+        "Comprim.":20.0,
+        "Atributte":"Quad",
+        "StdTime":"150,941441",
+        "StdTime AS":"150,941441"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec421",
+        "Comprim.":21.0,
+        "Atributte":"Quad",
+        "StdTime":"143,394369",
+        "StdTime AS":"143,394369"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec422",
+        "Comprim.":22.0,
+        "Atributte":"Quad",
+        "StdTime":"136,2246505",
+        "StdTime AS":"136,2246505"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec423",
+        "Comprim.":23.0,
+        "Atributte":"Quad",
+        "StdTime":"129,413418",
+        "StdTime AS":"129,413418"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec424",
+        "Comprim.":24.0,
+        "Atributte":"Quad",
+        "StdTime":"122,9427471",
+        "StdTime AS":"122,9427471"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec425",
+        "Comprim.":25.0,
+        "Atributte":"Quad",
+        "StdTime":"116,7956097",
+        "StdTime AS":"116,7956097"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec426",
+        "Comprim.":26.0,
+        "Atributte":"Quad",
+        "StdTime":"110,9558292",
+        "StdTime AS":"110,9558292"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec427",
+        "Comprim.":27.0,
+        "Atributte":"Quad",
+        "StdTime":"105,4080378",
+        "StdTime AS":"105,4080378"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec428",
+        "Comprim.":28.0,
+        "Atributte":"Quad",
+        "StdTime":"100,1376359",
+        "StdTime AS":"100,1376359"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec429",
+        "Comprim.":29.0,
+        "Atributte":"Quad",
+        "StdTime":"95,1307541",
+        "StdTime AS":"95,1307541"
+    },
+    {
+        "Descrição":"Twister de Bancada",
+        "ID":"Prodmec430",
+        "Comprim.":30.0,
+        "Atributte":"Quad",
+        "StdTime":"90,3742164",
+        "StdTime AS":"90,3742164"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN1",
+        "Comprim.":1.0,
+        "Atributte":"Normal",
+        "StdTime":"4600",
+        "StdTime AS":"4600"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN2",
+        "Comprim.":2.0,
+        "Atributte":"Normal",
+        "StdTime":"4300",
+        "StdTime AS":"4300"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN3",
+        "Comprim.":3.0,
+        "Atributte":"Normal",
+        "StdTime":"3800",
+        "StdTime AS":"3800"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN4",
+        "Comprim.":4.0,
+        "Atributte":"Normal",
+        "StdTime":"2900",
+        "StdTime AS":"2900"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN5",
+        "Comprim.":5.0,
+        "Atributte":"Normal",
+        "StdTime":"2300",
+        "StdTime AS":"2300"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN6",
+        "Comprim.":6.0,
+        "Atributte":"Normal",
+        "StdTime":"2100",
+        "StdTime AS":"2100"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN7",
+        "Comprim.":7.0,
+        "Atributte":"Normal",
+        "StdTime":"2000",
+        "StdTime AS":"2000"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN8",
+        "Comprim.":8.0,
+        "Atributte":"Normal",
+        "StdTime":"1850",
+        "StdTime AS":"1850"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN9",
+        "Comprim.":9.0,
+        "Atributte":"Normal",
+        "StdTime":"1630",
+        "StdTime AS":"1630"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN10",
+        "Comprim.":10.0,
+        "Atributte":"Normal",
+        "StdTime":"1500",
+        "StdTime AS":"1500"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBN11",
+        "Comprim.":11.0,
+        "Atributte":"Normal",
+        "StdTime":"1200",
+        "StdTime AS":"1200"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC1",
+        "Comprim.":1.0,
+        "Atributte":"Crista",
+        "StdTime":"2000",
+        "StdTime AS":"2000"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC2",
+        "Comprim.":2.0,
+        "Atributte":"Crista",
+        "StdTime":"1760",
+        "StdTime AS":"1760"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC3",
+        "Comprim.":3.0,
+        "Atributte":"Crista",
+        "StdTime":"1520",
+        "StdTime AS":"1520"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC4",
+        "Comprim.":4.0,
+        "Atributte":"Crista",
+        "StdTime":"1160",
+        "StdTime AS":"1160"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC5",
+        "Comprim.":5.0,
+        "Atributte":"Crista",
+        "StdTime":"920",
+        "StdTime AS":"920"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC6",
+        "Comprim.":6.0,
+        "Atributte":"Crista",
+        "StdTime":"840",
+        "StdTime AS":"840"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC7",
+        "Comprim.":7.0,
+        "Atributte":"Crista",
+        "StdTime":"800",
+        "StdTime AS":"800"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC8",
+        "Comprim.":8.0,
+        "Atributte":"Crista",
+        "StdTime":"740",
+        "StdTime AS":"740"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC9",
+        "Comprim.":9.0,
+        "Atributte":"Crista",
+        "StdTime":"652",
+        "StdTime AS":"652"
+    },
+    {
+        "Descrição":"Corte de Tubos",
+        "ID":"TBC10",
+        "Comprim.":10.0,
+        "Atributte":"Crista",
+        "StdTime":"600",
+        "StdTime AS":"600"
+    },
+    {
+        "Descrição":"HeatShrink",
+        "ID":"TapeDispenserSemi",
+        "Comprim.":null,
+        "Atributte":"Fita",
+        "StdTime":"11",
+        "StdTime AS":"327,2727273"
+    },
+    {
+        "Descrição":"HeatShrink",
+        "ID":"TapeDispenserAut",
+        "Comprim.":null,
+        "Atributte":"Fita",
+        "StdTime":"6",
+        "StdTime AS":"600"
+    },
+    {
+        "Descrição":"HeatShrink",
+        "ID":"EVO500",
+        "Comprim.":null,
+        "Atributte":"Termo",
+        "StdTime":"37",
+        "StdTime AS":"97,2972973"
+    },
+    {
+        "Descrição":"HeatShrink",
+        "ID":"Conveyor",
+        "Comprim.":null,
+        "Atributte":"Termo",
+        "StdTime":"4,5",
+        "StdTime AS":"800"
+    },
+    {
+        "Descrição":"HeatShrink",
+        "ID":"STCS-CRT",
+        "Comprim.":null,
+        "Atributte":"Termo",
+        "StdTime":"9",
+        "StdTime AS":"400"
+    },
+    {
+        "Descrição":"HeatShrink",
+        "ID":"MYX",
+        "Comprim.":null,
+        "Atributte":"Termo",
+        "StdTime":"25",
+        "StdTime AS":"144"
+    },
+    {
+        "Descrição":"HeatShrink",
+        "ID":"VMIR+",
+        "Comprim.":null,
+        "Atributte":"Termo",
+        "StdTime":"52",
+        "StdTime AS":"69,23076923"
+    },
+    {
+        "Descrição":"HeatShrink",
+        "ID":"STCS-BLTTS",
+        "Comprim.":null,
+        "Atributte":"BubbleTest",
+        "StdTime":"95",
+        "StdTime AS":"37,89473684"
+    },
+    {
+        "Descrição":"HeatShrink",
+        "ID":"STCS-DVBLT",
+        "Comprim.":null,
+        "Atributte":"BubbleTest",
+        "StdTime":"450",
+        "StdTime AS":"8"
+    },
+    {
+        "Descrição":"Stripping",
+        "ID":"ManualStrip",
+        "Comprim.":null,
+        "Atributte":null,
+        "StdTime":"4",
+        "StdTime AS":"900"
+    },
+    {
+        "Descrição":"Multicrimp Weld",
+        "ID":"MulticrimpWeld",
+        "Comprim.":null,
+        "Atributte":null,
+        "StdTime":"20",
+        "StdTime AS":"180"
+    },
+    {
+        "Descrição":"Multicrimp Weld",
+        "ID":"HydraulicPress",
+        "Comprim.":null,
+        "Atributte":null,
+        "StdTime":"15",
+        "StdTime AS":"240"
+    },
+    {
+        "Descrição":"BARE",
+        "ID":"Ondal Tape",
+        "Comprim.":null,
+        "Atributte":null,
+        "StdTime":"30",
+        "StdTime AS":"120"
+    },
+    {
+        "Descrição":"BARE",
+        "ID":"Hipot",
+        "Comprim.":null,
+        "Atributte":null,
+        "StdTime":"31",
+        "StdTime AS":"116,1290323"
+    },
+    {
+        "Descrição":"BARE",
+        "ID":"DeepSolder",
+        "Comprim.":null,
+        "Atributte":null,
+        "StdTime":"15",
+        "StdTime AS":"240"
+    },
+    {
+        "Descrição":"SpotTape",
+        "ID":"KBT50P",
+        "Comprim.":null,
+        "Atributte":null,
+        "StdTime":"6",
+        "StdTime AS":"600"
+    },
+    {
+        "Descrição":"Splice Automation",
+        "ID":"HBQ-905",
+        "Comprim.":null,
+        "Atributte":"Sec per CKT",
+        "StdTime":"3",
+        "StdTime AS":"1200"
+    }
+]

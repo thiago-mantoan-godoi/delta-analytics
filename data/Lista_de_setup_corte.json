@@ -1,0 +1,27 @@
+[
+    {
+        "Setup":"TT",
+        "Tempo(H)":"0,13",
+        "Tempo(m) (setup target NVT)":"7,8"
+    },
+    {
+        "Setup":"TS",
+        "Tempo(H)":"0,18",
+        "Tempo(m) (setup target NVT)":"10,8"
+    },
+    {
+        "Setup":"SS",
+        "Tempo(H)":"0,23",
+        "Tempo(m) (setup target NVT)":"13,8"
+    },
+    {
+        "Setup":"HD",
+        "Tempo(H)":"0,17",
+        "Tempo(m) (setup target NVT)":"10,0"
+    },
+    {
+        "Setup":"MS",
+        "Tempo(H)":"0,27",
+        "Tempo(m) (setup target NVT)":"16,0"
+    }
+]
