@@ -42,3 +42,7 @@ uv run pyside6-designer
 uv run pyside6-designer ui\simulator.ui
 uv run pyside6-uic ui\untitled.ui -o ui\untitled.py
 
+# or push an existing repository from the command line
+git remote add origin https://github.com/thiago-mantoan-godoi/delta-analytics.git
+git branch -M main
+git push -u origin main
