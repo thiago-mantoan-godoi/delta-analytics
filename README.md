@@ -1,48 +1,83 @@
-app/
-|____ui/         # Telas (PySide)
-|____core/       # Regras de negócio
-|____services/   # IA, sinas, dados
-|____infra/      # Banco, arquivos
-main.py
+# 📊 Delta Analytics - Engenharia
 
-# Criar o projeto
-uv init meu_projeto
-cd meu_projeto
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![PySide6](https://img.shields.io/badge/UI-PySide6-green.svg)
+![Pandas](https://img.shields.io/badge/Data-Pandas-orange.svg)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)
 
-# Adicionar o Ruff
-uv add ruff
+O **Delta Analytics** é uma ferramenta desktop desenvolvida para otimizar o fluxo de trabalho da engenharia de processos. Ele automatiza a conversão de listas técnicas do SAP em listas de corte operacionais, gerencia especificações de componentes (cabos, terminais, selos) e calcula tempos de setup e produção (Rates).
 
-# (Opcional) Ver dependências instaladas
-uv pip list
+## 🚀 Funcionalidades Principais
 
-# Analisar o código
-uv run ruff check .
+*   **Conversão SAP:** Transforma arquivos brutos do SAP em listas de circuitos amigáveis para a produção.
+*   **Processamento Inteligente:**
+    *   Definição automática de processos.
+    *   Sequenciamento de circuitos.
+    *   Cálculo de volumes e comunização.
+*   **Gestão de Bases de Dados:** Interface para visualização e atualização de tabelas JSON (Cabos, Terminais, Selos, Máquinas, Rates e Setup).
+*   **Monitoramento de Sistema:** Painel lateral com informações do colaborador, latência de rede, status da máquina e consumo de memória.
+*   **Logs de Erro:** Sistema robusto de captura de exceções com interface dedicada para depuração técnica.
 
-# Corrigir automaticamente problemas
-uv run ruff check . --fix
+## 🛠️ Tecnologias Utilizadas
 
-# Formatar o código
-uv run ruff format .
+*   **Linguagem:** [Python 3](https://www.python.org/)
+*   **Interface Gráfica (GUI):** [PySide6](https://doc.qt.io/qtforpython/) (Qt for Python)
+*   **Manipulação de Dados:** [Pandas](https://pandas.pydata.org/)
+*   **Monitoramento de Hardware:** [psutil](https://psutil.readthedocs.io/)
+*   **Integração Windows:** `win32com.client` (para coleta de dados do Active Directory/Outlook)
+*   **Gerenciador de Pacotes:** [uv](https://github.com/astral-sh/uv) (identificado pelo arquivo `uv.lock`)
 
-# Fluxo diário recomendado
-uv run ruff format .
-uv run ruff check . --fix
+## 📁 Estrutura do Projeto
 
-# (Opcional) Adicionar pre-commit
-uv add pre-commit
-pre-commit install
+```text
+DELTA_ANALYTICS/
+├── core/               # Regras de negócio centrais
+├── data/               # Arquivos JSON (Bases de dados locais)
+├── infra/              # Configurações e persistência
+├── services/           # Lógica de integração e serviços externos
+├── ui/                 # Arquivos de definição de interface
+├── utils/              # Funções auxiliares (conversores, cálculos, info_maq)
+├── main.py             # Ponto de entrada da aplicação
+├── pyproject.toml      # Configurações de dependências
+└── uv.lock             # Lockfile do gerenciador uv
+```
 
+## ⚙️ Instalação e Execução
 
-# Esse comando: cria/atualiza o ambiente virtual/ instala tudo automaticamente
-uv sync
+Como o projeto utiliza o gerenciador **uv**, a execução é extremamente rápida:
 
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/delta-analytics.git
+    cd delta-analytics
+    ```
 
-uv run pyside6-designer
+2.  **Instale as dependências:**
+    ```bash
+    # Se você tem o uv instalado:
+    uv sync
+    ```
 
-uv run pyside6-designer ui\simulator.ui
-uv run pyside6-uic ui\untitled.ui -o ui\untitled.py
+3.  **Execute a aplicação:**
+    ```bash
+    uv run main.py
+    ```
 
-# or push an existing repository from the command line
-git remote add origin https://github.com/thiago-mantoan-godoi/delta-analytics.git
-git branch -M main
-git push -u origin main
+## 📖 Como Usar
+
+1.  **Configuração Inicial:** Na aba "Basic Information", verifique se as tabelas bases (ícones ✔️/❌) estão atualizadas. Caso não estejam, importe os arquivos CSV correspondentes.
+2.  **Importação:** Vá até a aba "Lista de Circuitos - Corte" e clique em **Tool list** para carregar o Excel exportado do SAP.
+3.  **Processamento:**
+    *   Clique em **Converte para lista**.
+    *   Utilize os checkboxes para aplicar as camadas de inteligência: **Definir Processos**, **Sequenciar** e **Volumes**.
+4.  **Análise:** Use a barra de filtros para pesquisar circuitos específicos por coluna.
+5.  **Logs:** Se algo não funcionar como esperado, a aba **Logs Erros** detalhará exatamente o que aconteceu para facilitar o suporte.
+
+## 👤 Autor
+
+*   **Desenvolvedor:** TMGods
+*   **Ano:** 2026
+*   **Versão:** 1.0
+
+---
+*Este projeto é de uso restrito ao departamento de Engenharia.*
