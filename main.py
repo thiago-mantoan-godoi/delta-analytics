@@ -15,13 +15,23 @@ from PySide6.QtWidgets import (
     QTableWidget, QTableWidgetItem, QFrame, 
     QLabel, QPushButton, QCheckBox
 )
-
+from PySide6.QtGui import QFont
 from PySide6.QtWidgets import QFileDialog, QMessageBox, QTableWidget, QHeaderView
 from PySide6.QtCore import QDir, Qt
 
 import pandas as pd
 from utils.funcoes import (converte_arquivo_sap, adicionar_sequencia, definir_processos, 
                            add_volumes,top_processos_memoria, obter_info_colaborador, obter_info_maquina, testar_latencia)
+
+from ui.tela_gerar_arquivo_de_cadastro import CadastroCao
+from ui.tela_converte_lista_de_corte_para_cadastro_cao import ListaModeloCAO
+from ui.tela_extrair_cut_sem_validacao import MasterDataWindow
+from ui.tela_gerar_arquivo_do_corte import ListaDeCorte
+from ui.tela_comparar_cuts import TelaComparacaoCUT
+from ui.tela_compara_sap_cao import TelaComparacaoSAPCAO
+from ui.tela_extrair_circuitos_especiais import TelaExtrairCktEspeciais
+from ui.tela_de_mark_up_pdf import MarkUpPdf
+from ui.tela_split_e_merge_pdf import PDFToolApp
 
 from functools import wraps
 import traceback
@@ -105,7 +115,8 @@ class MainWindow(QDialog):
             Qt.WindowType.WindowCloseButtonHint
         )
 
-        self.setWindowTitle("Engenharia")
+        self.setWindowTitle("TMGods 🧠 Industrial Engineering")
+        
         self.resize(1000, 700)
 
         # Layout principal (horizontal)
@@ -118,6 +129,15 @@ class MainWindow(QDialog):
         # Valores iniciais
         self.vision_komax = 17
         self.vision_schleuniger = 0
+        self.cadastro_cao = None
+        self.modelo_cadastroBaseSap = None
+        self.extrairCutsSemValidacao = None
+        self.gerarListaCorte = None
+        self.deltaCompararCuts = None
+        self.ComparaCaoSap = None
+        self.ExtrairCircuitosExp = None
+        self.mark_up_pdf = None
+        self.FazerSplitMerge = None
         #==============================
 
         # ==============================
@@ -430,7 +450,7 @@ class MainWindow(QDialog):
         self.btn_atualizar_lista_de_criterios = QPushButton("Atualizar Tabela")
         self.btn_visualizar_lista_de_criterios = QPushButton("Visualizar Critérios")
         
-        self.btn_padrao_lista_de_criterios.clicked.connect(lambda: self.baixar_dataframe_csv(self.tabela_criterios_Qualidade(),nome_padrao='Lista_de_criterios_Qualidade.csv'))
+        self.btn_padrao_lista_de_criterios.clicked.connect(lambda: self.baixar_dataframe_csv(self.tabela_criterios_Qualidade(),nome_padrao='CrimpSTD.csv'))
         self.btn_atualizar_lista_de_criterios.clicked.connect(lambda: self.importar_csv_e_salvar_json(name_arquivo="Lista_de_criterios_Qualidade.json"))
         caminho_de_criterios = os.path.join(os.getcwd(), "data", "Lista_de_criterios_Qualidade.json")
         self.btn_visualizar_lista_de_criterios.clicked.connect(lambda: self.visualizar_json_como_tabela(caminho_de_criterios))
@@ -618,7 +638,7 @@ class MainWindow(QDialog):
         tab1_layout.addWidget(self.criar_linha())
         
         # Layout Criterios
-        label_criterios_de_qualidade = QLabel("Critérios de Qualidade")
+        label_criterios_de_qualidade = QLabel("Lista de CrimpSTD")
         tab1_layout.addWidget(label_criterios_de_qualidade)
         layout_interno_14 = QHBoxLayout()
         layout_interno_14.addWidget(self.label_de_criterios)
@@ -655,132 +675,227 @@ class MainWindow(QDialog):
         #-----------------------------------------------------------------------------------------------------------------------------
         # ---------- Aba toolkit ----------
         self.tab_toolkit = QWidget()
+        layout_principal = QVBoxLayout(self.tab_toolkit)
 
-        layout_principal = QVBoxLayout()
+        # Layout horizontal que conterá as 3 colunas
+        layout_colunas_grid = QHBoxLayout()
 
-        # Layout horizontal para os grupos
-        layout_grupos = QHBoxLayout()
+        # --- CRIAÇÃO DOS GRUPOS ---
+        group_box1 = QGroupBox("CR's")
+        group_box2 = QGroupBox("CUT's")
+        group_box3 = QGroupBox("CAOS")
+        group_box4 = QGroupBox("PDF")
+        group_box5 = QGroupBox("SAP")
+        group_box6 = QGroupBox("Exmplo2")
 
-        # Criar os GroupBox
-        group_box1 = QGroupBox("Informações1")
-        group_box2 = QGroupBox("Informações2")
-        group_box3 = QGroupBox("Informações3")
-
-        # Layout interno de cada grupo
-        layout_g1 = QVBoxLayout()
+        # --- LAYOUTS INTERNOS DOS GRUPOS ---
+        layout_g1 = QVBoxLayout() 
         layout_g2 = QVBoxLayout()
         layout_g3 = QVBoxLayout()
+        layout_g4 = QVBoxLayout() # Layout para CAO2
+        layout_g5 = QVBoxLayout() # Layout para CAO3
+        layout_g6 = QVBoxLayout() # Layout para CAO4
 
-        # Botões
-        layout_g1.addWidget(QPushButton("Botão 1.1"))
+        # --- CONTEÚDO: COLUNA 1 (CR's) ---
+        layout_g1.addWidget(QPushButton("Análisar CR's"))
         layout_g1.addWidget(QPushButton("Botão 1.2"))
         layout_g1.addStretch() 
-
-        layout_g2.addWidget(QPushButton("Botão 2.1"))
-        layout_g2.addWidget(QPushButton("Botão 2.2"))
-        layout_g2.addStretch() 
-
-        layout_g3.addWidget(QPushButton("Botão 3.1"))
-        layout_g3.addWidget(QPushButton("Botão 3.2"))
-        layout_g3.addStretch() 
-
-        # Aplicar layouts internos
         group_box1.setLayout(layout_g1)
+
+        # --- CONTEÚDO: COLUNA 2 (CUT's) ---
+        layout_g2.addWidget(QPushButton("1. Consolidar Cut's + Check de Validações"))
+        
+        self.extrair_e_consilidadar_cuts = QPushButton("2. Extrair e consolidar Cut's")
+        self.extrair_e_consilidadar_cuts.clicked.connect(self.extrair_cuts_sem_validacao)
+        self.extrair_e_consilidadar_cuts.setToolTip("Ferramenta utilizada para converter lista de corte para arquivo modelo de cadastro.")
+        self.extrair_e_consilidadar_cuts.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g2.addWidget(self.extrair_e_consilidadar_cuts)
+
+        self.comparar_cuts = QPushButton("3. Comparar Cut's")
+        self.comparar_cuts.clicked.connect(self.abrir_tela_comparar_cut)
+        self.comparar_cuts.setToolTip("Gerar delta entre duas Cut´s")
+        self.comparar_cuts.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g2.addWidget(self.comparar_cuts)
+        layout_g2.addStretch() 
         group_box2.setLayout(layout_g2)
+
+        # --- CONTEÚDO: COLUNA 3 (CAO1) ---
+        self.cadastrar_cao = QPushButton("1. Gerar arquivo de cadastro do CAO")
+        self.cadastrar_cao.clicked.connect(self.abrir_tela_cadastrar_cao)
+        self.cadastrar_cao.setToolTip("Ferramenta utilizada para gerar os arquivos de Master Data de Leadset, cabos, terminais e selos.")
+        self.cadastrar_cao.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g3.addWidget(self.cadastrar_cao)
+        
+        self.modelo_cadastro_base_sap = QPushButton("2. Converter Lista de Corte")
+        self.modelo_cadastro_base_sap.clicked.connect(self.abrir_tela_modelo_cadastro_base_sap)
+        self.modelo_cadastro_base_sap.setToolTip("Ferramenta utilizada para converter lista de corte para arquivo modelo de cadastro.")
+        self.modelo_cadastro_base_sap.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g3.addWidget(self.modelo_cadastro_base_sap)
+        
+        self.gerar_lista_de_corte = QPushButton("3. Gerar Lista de Corte")
+        self.gerar_lista_de_corte.clicked.connect(self.abrir_tela_gerar_lista_de_corte)
+        self.gerar_lista_de_corte.setToolTip("Ferramenta utilizada para converter lista de corte para arquivo modelo de cadastro.")
+        self.gerar_lista_de_corte.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g3.addWidget(self.gerar_lista_de_corte)
+
+        self.gerar_compara_cao_sap = QPushButton("4. Comparar SAP vs CAO")
+        self.gerar_compara_cao_sap.clicked.connect(self.abrir_tela_comparar_cao_sap)
+        self.gerar_compara_cao_sap.setToolTip("Ferramenta utilizada para converter lista de corte para arquivo modelo de cadastro.")
+        self.gerar_compara_cao_sap.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g3.addWidget(self.gerar_compara_cao_sap)
+        
+        self.extrair_circuitos_especiais = QPushButton("5. Extrair Circuitos Especiais")
+        self.extrair_circuitos_especiais.clicked.connect(self.abrir_tela_extrair_circuitos_especiais)
+        self.extrair_circuitos_especiais.setToolTip("Ferramenta utilizada para converter lista de corte para arquivo modelo de cadastro.")
+        self.extrair_circuitos_especiais.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g3.addWidget(self.extrair_circuitos_especiais)
+        layout_g3.addStretch() 
         group_box3.setLayout(layout_g3)
 
-        # Adicionar os grupos no layout horizontal
-        layout_grupos.addWidget(group_box1)
-        layout_grupos.addWidget(group_box2)
-        layout_grupos.addWidget(group_box3)
+        self.formatar_pdf = QPushButton("1. Mark-Up PDF")
+        self.formatar_pdf.clicked.connect(self.abrir_tela_mark_up_pdf)
+        self.formatar_pdf.setToolTip("Ferramenta utilizada para converter lista de corte para arquivo modelo de cadastro.")
+        self.formatar_pdf.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g4.addWidget(self.formatar_pdf)
+        #layout_g4.addStretch() 
+        group_box4.setLayout(layout_g4)
+        
+        self.split_merge_pdf = QPushButton("2. Fazer Split ou Merge PDF")
+        self.split_merge_pdf.clicked.connect(self.abrir_tela_split_ou_merge_pdf)
+        self.split_merge_pdf.setToolTip("Ferramenta utilizada para converter lista de corte para arquivo modelo de cadastro.")
+        self.split_merge_pdf.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g4.addWidget(self.split_merge_pdf)
+        layout_g4.addStretch() 
+        group_box4.setLayout(layout_g4)
 
-        # Adicionar ao layout principal
-        layout_principal.addLayout(layout_grupos)
+        self.Exemplo1 = QPushButton("Em desenvolvimento")
+        #self.formatar_pdf.clicked.connect(self.abrir_tela_extrair_circuitos_especiais)
+        self.Exemplo1.setToolTip("Ferramenta utilizada para converter lista de corte para arquivo modelo de cadastro.")
+        self.Exemplo1.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g5.addWidget(self.Exemplo1)
+        layout_g5.addStretch() 
+        group_box5.setLayout(layout_g5)
+        
+        self.Exemplo2 = QPushButton("Em desenvolvimento")
+        #self.formatar_pdf.clicked.connect(self.abrir_tela_extrair_circuitos_especiais)
+        self.Exemplo2.setToolTip("Ferramenta utilizada para converter lista de corte para arquivo modelo de cadastro.")
+        self.Exemplo2.setStyleSheet("""QPushButton {text-align: left;padding-left: 7px;min-height: 23px;}""")
+        layout_g6.addWidget(self.Exemplo2)
+        layout_g6.addStretch() 
+        group_box6.setLayout(layout_g6)
 
-        # Aplicar na aba
+        # Configurar layouts vazios para os novos GroupBoxes (CAO2, 3 e 4) para manter consistência
+        group_box4.setLayout(layout_g4)
+        group_box5.setLayout(layout_g5)
+        group_box6.setLayout(layout_g6)
+
+        # --- ORGANIZAÇÃO EM COLUNAS ---
+
+        # Coluna 1: CR's (1) em cima de CAO2 (4)
+        coluna1 = QVBoxLayout()
+        coluna1.addWidget(group_box1)
+        coluna1.addWidget(group_box4)
+
+        # Coluna 2: CUT's (2) em cima de CAO3 (5)
+        coluna2 = QVBoxLayout()
+        coluna2.addWidget(group_box2)
+        coluna2.addWidget(group_box5)
+
+        # Coluna 3: CAO1 (3) em cima de CAO4 (6)
+        coluna3 = QVBoxLayout()
+        coluna3.addWidget(group_box3)
+        coluna3.addWidget(group_box6)
+
+        # Adicionar as colunas ao layout horizontal
+        layout_colunas_grid.addLayout(coluna1)
+        layout_colunas_grid.addLayout(coluna2)
+        layout_colunas_grid.addLayout(coluna3)
+
+        # Finalização
+        layout_principal.addLayout(layout_colunas_grid)
         self.tab_toolkit.setLayout(layout_principal)
 
         # ---------- Aba 2 ----------
-        self.tab2 = QWidget()
-        tab2_layout = QVBoxLayout()
-        self.tab2.setLayout(tab2_layout)
+        # self.tab2 = QWidget()
+        # tab2_layout = QVBoxLayout()
+        # self.tab2.setLayout(tab2_layout)
 
         # Botão para carregar arquivo
-        btn_carregar = QPushButton("Tool list")
-        btn_carregar.setFixedWidth(150)
-        btn_carregar.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+        # btn_carregar = QPushButton("Tool list")
+        # btn_carregar.setFixedWidth(150)
+        # btn_carregar.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         
-        btn_converte_lista = QPushButton("Converte para lista")
-        btn_converte_lista.setFixedWidth(150)
-        btn_converte_lista.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
+        # btn_converte_lista = QPushButton("Converte para lista")
+        # btn_converte_lista.setFixedWidth(150)
+        # btn_converte_lista.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
 
         # Label com status
 
         # Layout horizontal para botão e label juntos
-        layout_h_1 = QHBoxLayout()
-        layout_h_1.addWidget(btn_carregar, alignment=Qt.AlignmentFlag.AlignLeft)
+        # layout_h_1 = QHBoxLayout()
+        # layout_h_1.addWidget(btn_carregar, alignment=Qt.AlignmentFlag.AlignLeft)
         
         
-        layout_h_2 = QHBoxLayout()
-        layout_h_2.addWidget(btn_converte_lista, alignment=Qt.AlignmentFlag.AlignLeft)
+        # layout_h_2 = QHBoxLayout()
+        # layout_h_2.addWidget(btn_converte_lista, alignment=Qt.AlignmentFlag.AlignLeft)
         
         # Checkbox
-        self.checkbox_processo = QCheckBox("1. Definir Processos")
-        self.checkbox_processo.stateChanged.connect(self.adicionar_processos)
+        # self.checkbox_processo = QCheckBox("1. Definir Processos")
+        # self.checkbox_processo.stateChanged.connect(self.adicionar_processos)
         
-        self.checkbox_seq = QCheckBox("2. Sequenciar")
-        self.checkbox_seq.stateChanged.connect(self.adicionar_seq)
+        # self.checkbox_seq = QCheckBox("2. Sequenciar")
+        # self.checkbox_seq.stateChanged.connect(self.adicionar_seq)
         
-        self.checkbox_volume = QCheckBox("3. Volumes")
-        self.checkbox_volume.stateChanged.connect(self.adicionar_volume)
+        # self.checkbox_volume = QCheckBox("3. Volumes")
+        # self.checkbox_volume.stateChanged.connect(self.adicionar_volume)
         
     
-        layout_h_3 = QHBoxLayout()
-        layout_h_3.addWidget(self.checkbox_processo, alignment=Qt.AlignmentFlag.AlignLeft)
+        # layout_h_3 = QHBoxLayout()
+        # layout_h_3.addWidget(self.checkbox_processo, alignment=Qt.AlignmentFlag.AlignLeft)
 
-        layout_h_4 = QHBoxLayout()
-        layout_h_4.addWidget(self.checkbox_seq, alignment=Qt.AlignmentFlag.AlignLeft)
+        # layout_h_4 = QHBoxLayout()
+        # layout_h_4.addWidget(self.checkbox_seq, alignment=Qt.AlignmentFlag.AlignLeft)
         
-        layout_h_5 = QHBoxLayout()
-        layout_h_5.addWidget(self.checkbox_volume, alignment=Qt.AlignmentFlag.AlignLeft)
+        # layout_h_5 = QHBoxLayout()
+        # layout_h_5.addWidget(self.checkbox_volume, alignment=Qt.AlignmentFlag.AlignLeft)
         
-        # Tabela para mostrar dados
-        self.tabela_corte = QTableWidget()
+        # # Tabela para mostrar dados
+        # self.tabela_corte = QTableWidget()
         
         
         # --- Filtro ---
-        layout_filtro = QHBoxLayout()
+        # layout_filtro = QHBoxLayout()
 
-        self.combo_coluna = QComboBox()
-        self.input_valor = QLineEdit()
-        self.input_valor.setPlaceholderText("Digite o valor...")
-        self.input_valor.setFixedWidth(120)
+        # self.combo_coluna = QComboBox()
+        # self.input_valor = QLineEdit()
+        # self.input_valor.setPlaceholderText("Digite o valor...")
+        # self.input_valor.setFixedWidth(120)
 
-        self.btn_filtrar = QPushButton("Filtrar")
+        # self.btn_filtrar = QPushButton("Filtrar")
 
-        layout_filtro.addWidget(QLabel("Coluna:"))
-        layout_filtro.addWidget(self.combo_coluna)
-        layout_filtro.addWidget(QLabel("Valor:"))
-        layout_filtro.addWidget(self.input_valor)
-        layout_filtro.addWidget(self.btn_filtrar)
-        layout_filtro.addStretch()
+        # layout_filtro.addWidget(QLabel("Coluna:"))
+        # layout_filtro.addWidget(self.combo_coluna)
+        # layout_filtro.addWidget(QLabel("Valor:"))
+        # layout_filtro.addWidget(self.input_valor)
+        # layout_filtro.addWidget(self.btn_filtrar)
+        # layout_filtro.addStretch()
 
-        self.btn_filtrar.clicked.connect(self.filtrar_dataframe)
+        # self.btn_filtrar.clicked.connect(self.filtrar_dataframe)
 
-        # Adiciona os layouts/widgets na ordem
-        tab2_layout.addLayout(layout_h_1)
-        tab2_layout.addWidget(self.criar_linha())
-        tab2_layout.addLayout(layout_h_2)
-        tab2_layout.addLayout(layout_h_3)
-        tab2_layout.addLayout(layout_h_4)
-        tab2_layout.addLayout(layout_h_5)
-        tab2_layout.addLayout(layout_filtro)   
-        tab2_layout.addWidget(self.criar_linha())
-        tab2_layout.addWidget(self.tabela_corte)
+        # # Adiciona os layouts/widgets na ordem
+        # tab2_layout.addLayout(layout_h_1)
+        # tab2_layout.addWidget(self.criar_linha())
+        # tab2_layout.addLayout(layout_h_2)
+        # tab2_layout.addLayout(layout_h_3)
+        # tab2_layout.addLayout(layout_h_4)
+        # tab2_layout.addLayout(layout_h_5)
+        # tab2_layout.addLayout(layout_filtro)   
+        # tab2_layout.addWidget(self.criar_linha())
+        # tab2_layout.addWidget(self.tabela_corte)
 
         # Conecta o botão ao método de carregar arquivo
-        btn_carregar.clicked.connect(self.carregar_arquivo)
-        btn_converte_lista.clicked.connect(lambda: self.converter_sap())
+        # btn_carregar.clicked.connect(self.carregar_arquivo)
+        # btn_converte_lista.clicked.connect(lambda: self.converter_sap())
         
         # ---------- Aba 10 ----------
         self.tab10 = QWidget()
@@ -806,14 +921,99 @@ class MainWindow(QDialog):
         self.tab10.setLayout(tab10_layout)
         
         #----------------------------
-
-        tabs.addTab(tab1, "Basic Information")
         tabs.addTab(self.tab_toolkit, "Toolkit")
-        tabs.addTab(self.tab2, "Lista de Circuitos - Corte")
+        tabs.addTab(tab1, "Basic Information")
+        #tabs.addTab(self.tab2, "Lista de Circuitos - Corte")
         tabs.addTab(self.tab10, "Logs Erros")
         main_layout.addWidget(tabs)
 
 
+    @log_errors
+    def abrir_tela_split_ou_merge_pdf(self):
+        if self.FazerSplitMerge is None:
+            self.FazerSplitMerge = PDFToolApp()
+
+        self.FazerSplitMerge.show()
+        self.FazerSplitMerge.raise_()
+        self.FazerSplitMerge.activateWindow()
+
+    @log_errors
+    def abrir_tela_mark_up_pdf(self):
+        if self.mark_up_pdf is None:
+            self.mark_up_pdf = MarkUpPdf()
+
+        self.mark_up_pdf.show()
+        self.mark_up_pdf.raise_()
+        self.mark_up_pdf.activateWindow()
+
+
+    @log_errors
+    def abrir_tela_extrair_circuitos_especiais(self):
+        if self.ExtrairCircuitosExp is None:
+            self.ExtrairCircuitosExp = TelaExtrairCktEspeciais()
+
+        self.ExtrairCircuitosExp.show()
+        self.ExtrairCircuitosExp.raise_()
+        self.ExtrairCircuitosExp.activateWindow()
+
+    @log_errors
+    def abrir_tela_comparar_cao_sap(self):
+        if self.ComparaCaoSap is None:
+            self.ComparaCaoSap = TelaComparacaoSAPCAO()
+
+        self.ComparaCaoSap.show()
+        self.ComparaCaoSap.raise_()
+        self.ComparaCaoSap.activateWindow()
+
+    @log_errors
+    def abrir_tela_comparar_cut(self):
+        if self.deltaCompararCuts is None:
+            self.deltaCompararCuts = TelaComparacaoCUT()
+
+        self.deltaCompararCuts.show()
+        self.deltaCompararCuts.raise_()
+        self.deltaCompararCuts.activateWindow()
+
+
+    @log_errors
+    def abrir_tela_gerar_lista_de_corte(self):
+        if self.gerarListaCorte is None:
+            self.gerarListaCorte = ListaDeCorte()
+
+        self.gerarListaCorte.show()
+        self.gerarListaCorte.raise_()
+        self.gerarListaCorte.activateWindow()
+
+
+    @log_errors
+    def abrir_tela_cadastrar_cao(self):
+        if self.cadastro_cao is None:
+            self.cadastro_cao = CadastroCao()
+
+        self.cadastro_cao.show()
+        self.cadastro_cao.raise_()
+        self.cadastro_cao.activateWindow()
+
+    @log_errors
+    def abrir_tela_modelo_cadastro_base_sap(self):
+        if self.modelo_cadastroBaseSap is None:
+            self.modelo_cadastroBaseSap = ListaModeloCAO()
+
+        self.modelo_cadastroBaseSap.show()
+        self.modelo_cadastroBaseSap.raise_()
+        self.modelo_cadastroBaseSap.activateWindow()
+        
+        
+    @log_errors
+    def extrair_cuts_sem_validacao(self):
+        if self.extrairCutsSemValidacao is None:
+            self.extrairCutsSemValidacao = MasterDataWindow()
+
+        self.extrairCutsSemValidacao.show()
+        self.extrairCutsSemValidacao.raise_()
+        self.extrairCutsSemValidacao.activateWindow()
+        
+    
     @log_errors
     def criar_linha(self):
         line = QFrame()
@@ -1004,7 +1204,8 @@ class MainWindow(QDialog):
                          'Terminal Size (Male or Female only)', 
                          'Min Wire Size (mm^2)', 'Max Wire Size (mm^2)', 
                          'Feed Type/Delivery Form', 'Accepts Seal?', 
-                         'Terminal Style (Male or Female only)'
+                         'Terminal Style (Male or Female only)',
+                         'Part Classification','Part Description'
                          ]
             )
             return df
@@ -1020,7 +1221,8 @@ class MainWindow(QDialog):
                          'Terminal Size (Male or Female only)', 
                          'Min Wire Size (mm^2)', 'Max Wire Size (mm^2)', 
                          'Feed Type/Delivery Form', 'Accepts Seal?', 
-                         'Terminal Style (Male or Female only)'
+                         'Terminal Style (Male or Female only)',
+                         'Part Classification','Part Description'
                          ]
                 )
 
@@ -1035,6 +1237,7 @@ class MainWindow(QDialog):
                          'Min Wire Size (mm^2)', 'Max Wire Size (mm^2)', 
                          'Feed Type/Delivery Form', 'Accepts Seal?', 
                          'Terminal Style (Male or Female only)'
+                         'Part Classification','Part Description'
                          ]
             )
             
@@ -1298,11 +1501,7 @@ class MainWindow(QDialog):
         if not os.path.exists(caminho_zmm247):
             # Cria DataFrame vazio com colunas padrão
             df = pd.DataFrame(
-                columns=[
-                    'Plant',
-                    'Internal Family',
-                    'External Family'
-                ]
+                columns=['Plant', 'Internal Family', 'External Family']
             )
             return df
 
@@ -1313,11 +1512,7 @@ class MainWindow(QDialog):
             # Se estiver vazio, retorna DataFrame com colunas padrão
             if df.empty:
                 df = pd.DataFrame(
-                    columns=[
-                        'Plant',
-                        'Internal Family',
-                        'External Family'
-                    ]
+                    columns=['Plant', 'Internal Family', 'External Family']
                 )
 
             return df
@@ -1326,11 +1521,7 @@ class MainWindow(QDialog):
             # Caso haja erro na leitura do JSON
             print(f"Erro ao ler o JSON: {e}")
             return pd.DataFrame(
-                columns=[
-                    'Part Number',
-                    'Machine Type',
-                    'Capacity'
-                ]
+                columns=['Plant', 'Internal Family', 'External Family']
             )
     
     @log_errors
@@ -1513,9 +1704,7 @@ class MainWindow(QDialog):
         if not os.path.exists(caminho_master_kanban):
             # Cria DataFrame vazio com colunas padrão
             df = pd.DataFrame(
-                columns=['Máquina',	'SmartDetect',	'WireCam (DECAPE)',	
-                         'WireCam (SELO)', 'CFM', 'VisionSystem',	
-                         'Double Cutting',	'Wire size', 'Other']
+                columns=["Terminal","Bitola","Isolação","Selo","CCW-","CCW","CCW+","CCH-","CCH","CCH+","ICW-","ICW","ICW+","ICH-","ICH","ICH+"]
             )
             return df
 
@@ -1526,9 +1715,7 @@ class MainWindow(QDialog):
             # Se estiver vazio, retorna DataFrame com colunas padrão
             if df.empty:
                 df = pd.DataFrame(
-                    columns=['Máquina',	'SmartDetect',	'WireCam (DECAPE)',	
-                         'WireCam (SELO)', 'CFM', 'VisionSystem',	
-                         'Double Cutting',	'Wire size', 'Other']
+                    columns=["Terminal","Bitola","Isolação","Selo","CCW-","CCW","CCW+","CCH-","CCH","CCH+","ICW-","ICW","ICW+","ICH-","ICH","ICH+"]
 
                 )
 
@@ -1538,7 +1725,7 @@ class MainWindow(QDialog):
             # Caso haja erro na leitura do JSON
             print(f"Erro ao ler o JSON: {e}")
             return pd.DataFrame(
-                columns=['Projeto','Leadset','Alocação']
+                columns=["Terminal","Bitola","Isolação","Selo","CCW-","CCW","CCW+","CCH-","CCH","CCH+","ICW-","ICW","ICW+","ICH-","ICH","ICH+"]
 
             )
                     
@@ -1721,7 +1908,9 @@ class MainWindow(QDialog):
                     'Terminal Size (Male or Female only)', 
                     'Min Wire Size (mm^2)', 'Max Wire Size (mm^2)', 
                     'Feed Type/Delivery Form', 'Accepts Seal?', 
-                    'Terminal Style (Male or Female only)']
+                    'Terminal Style (Male or Female only)',
+                    'Part Classification','Part Description'
+                    ]
             if list(dados.columns) == cols: return True
             else: 
                 faltando = set(cols) - set(dados.columns)
@@ -1936,9 +2125,7 @@ class MainWindow(QDialog):
                 raise ValueError(texto_erro)
         
         elif name_arquivo == "Lista_de_criterios_Qualidade.json":
-            cols = ['Máquina',	'SmartDetect',	'WireCam (DECAPE)',	
-                         'WireCam (SELO)', 'CFM', 'VisionSystem',	
-                         'Double Cutting',	'Wire size', 'Other']
+            cols = ["Terminal","Bitola","Isolação","Selo","CCW-","CCW","CCW+","CCH-","CCH","CCH+","ICW-","ICW","ICW+","ICH-","ICH","ICH+"]
             if list(dados.columns) == cols: 
                 return True
             else: 
@@ -2177,6 +2364,10 @@ class MainWindow(QDialog):
     
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+
+    # font = QFont("Courier New", 10)
+    # app.setFont(font)  # <- aqui
+
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
